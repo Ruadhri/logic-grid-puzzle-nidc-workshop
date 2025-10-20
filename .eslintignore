@@ -1,0 +1,11 @@
+# Node.js
+
+node_modules/
+dist/
+build/
+coverage/
+\*.min.js
+
+# Keep tests
+
+!tests/

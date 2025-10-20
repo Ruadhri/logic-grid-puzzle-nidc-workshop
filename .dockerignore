@@ -1,0 +1,17 @@
+# Node.js
+
+node_modules/
+_.log
+.env_
+.git/
+.gitignore
+.vscode/
+.idea/
+README.md
+\*.md
+data/states/
+coverage/
+
+# Keep sample puzzles for quickstart
+
+!data/sample-puzzles/
