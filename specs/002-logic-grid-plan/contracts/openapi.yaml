@@ -1,0 +1,191 @@
+openapi: 3.0.3
+info:
+  title: Logic Grid Puzzle MVP API
+  version: '0.1.0'
+servers:
+  - url: http://localhost:3000
+paths:
+  /puzzles:
+    get:
+      summary: List available puzzles
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/PuzzleSummary'
+    post:
+      summary: Import a puzzle
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Puzzle'
+      responses:
+        '201':
+          description: Created
+  /puzzles/{puzzleId}:
+    get:
+      summary: Get puzzle definition
+      parameters:
+        - name: puzzleId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Puzzle'
+  /puzzles/{puzzleId}/state:
+    get:
+      summary: Get puzzle state
+      parameters:
+        - name: puzzleId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PuzzleState'
+    post:
+      summary: Save puzzle state
+      parameters:
+        - name: puzzleId
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PuzzleState'
+      responses:
+        '200':
+          description: OK
+  /puzzles/{puzzleId}/mark:
+    post:
+      summary: Apply a marking to the puzzle
+      parameters:
+        - name: puzzleId
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Marking'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PuzzleState'
+components:
+  schemas:
+    PuzzleSummary:
+      type: object
+      properties:
+        id:
+          type: string
+        title:
+          type: string
+    Puzzle:
+      type: object
+      properties:
+        id:
+          type: string
+        title:
+          type: string
+        categories:
+          type: array
+          items:
+            $ref: '#/components/schemas/Category'
+        clues:
+          type: array
+          items:
+            $ref: '#/components/schemas/Clue'
+    Category:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        options:
+          type: array
+          items:
+            $ref: '#/components/schemas/Option'
+    Option:
+      type: object
+      properties:
+        id:
+          type: string
+        label:
+          type: string
+    Clue:
+      type: object
+      properties:
+        id:
+          type: string
+        text:
+          type: string
+    PuzzleState:
+      type: object
+      properties:
+        puzzleId:
+          type: string
+        cells:
+          type: array
+          items:
+            $ref: '#/components/schemas/GridCell'
+        history:
+          type: array
+          items:
+            type: object
+    GridCell:
+      type: object
+      properties:
+        categoryA:
+          type: string
+        optionA:
+          type: string
+        categoryB:
+          type: string
+        optionB:
+          type: string
+        state:
+          type: string
+          enum: [unknown, confirmed, eliminated]
+    Marking:
+      type: object
+      properties:
+        categoryA:
+          type: string
+        optionA:
+          type: string
+        categoryB:
+          type: string
+        optionB:
+          type: string
+        state:
+          type: string
+          enum: [confirmed, eliminated]
