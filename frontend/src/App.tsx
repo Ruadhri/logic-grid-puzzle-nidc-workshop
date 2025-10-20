@@ -14,10 +14,12 @@ function App() {
     ['puzzleState', currentPuzzleId],
     () => puzzleApi.getState(currentPuzzleId),
     {
-      onError: () => {
+      onError: (err) => {
+        console.error('Error fetching state:', err);
         // If state doesn't exist, create it
         createInitialState();
-      }
+      },
+      retry: false // Don't retry on error for debugging
     }
   );
 
