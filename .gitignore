@@ -1,0 +1,21 @@
+# Node.js
+node_modules/
+dist/
+build/
+*.log
+.env*
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+data/states/
+data/puzzles/
+coverage/
