@@ -1,5 +1,5 @@
 import React from 'react';
-import { Paper, Grid } from '@mui/material';
+import { Paper, Box, Typography } from '@mui/material';
 import { Cell } from '../../types/puzzle';
 
 interface LogicGridProps {
@@ -8,44 +8,69 @@ interface LogicGridProps {
 }
 
 export const LogicGrid: React.FC<LogicGridProps> = ({ cells, onCellClick }) => {
-  // Group cells by categoryA (rows)
-  const cellsByCategory = cells.reduce((acc, cell) => {
-    if (!acc[cell.categoryA]) {
-      acc[cell.categoryA] = [];
-    }
-    acc[cell.categoryA].push(cell);
-    return acc;
-  }, {} as Record<string, Cell[]>);
+  // Get unique values
+  const people = Array.from(new Set(cells.map(cell => cell.optionA)));
+  const drinks = Array.from(new Set(cells.map(cell => cell.optionB)));
+
+  // Group cells by person (rows) and drinks (columns)
+  const cellsByPosition = people.map(person => 
+    drinks.map(drink => 
+      cells.find(cell => 
+        cell.optionA === person && cell.optionB === drink
+      )
+    )
+  );
 
   return (
-    <Paper elevation={3} sx={{ p: 2 }}>
-      <Grid container spacing={1}>
-        {Object.entries(cellsByCategory).map(([category, categoryCells]) => (
-          <Grid container item key={category} spacing={1}>
-            {categoryCells.map((cell) => (
-              <Grid item key={`${cell.categoryA}-${cell.optionA}-${cell.categoryB}-${cell.optionB}`}>
+    <Paper elevation={3} sx={{ p: 3 }}>
+      <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+        {/* Header row with drink options */}
+        <Box sx={{ display: 'flex', ml: 8 }}>
+          {drinks.map(drink => (
+            <Typography key={drink} sx={{ width: 80, textAlign: 'center' }}>
+              {drink}
+            </Typography>
+          ))}
+        </Box>
+
+        {/* Grid rows */}
+        {cellsByPosition.map((row, rowIndex) => (
+          <Box key={people[rowIndex]} sx={{ display: 'flex', alignItems: 'center' }}>
+            {/* Row label (person) */}
+            <Typography sx={{ width: 60, mr: 2 }}>
+              {people[rowIndex]}
+            </Typography>
+
+            {/* Cells in the row */}
+            <Box sx={{ display: 'flex', gap: 2 }}>
+              {row.map((cell, colIndex) => cell && (
                 <Paper 
-                  elevation={1}
+                  key={`${cell.categoryA}-${cell.optionA}-${cell.categoryB}-${cell.optionB}`}
+                  elevation={2}
                   sx={{
-                    width: 40,
-                    height: 40,
+                    width: 60,
+                    height: 60,
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',
                     cursor: 'pointer',
                     backgroundColor: cell.state === 'confirmed' ? '#4caf50' :
-                                   cell.state === 'eliminated' ? '#f44336' : '#fff'
+                                   cell.state === 'eliminated' ? '#f44336' : '#fff',
+                    '&:hover': {
+                      opacity: 0.8,
+                      elevation: 4
+                    }
                   }}
                   onClick={() => onCellClick(cell)}
                 >
                   {cell.state === 'confirmed' ? '✓' :
                    cell.state === 'eliminated' ? '×' : ''}
                 </Paper>
-              </Grid>
-            ))}
-          </Grid>
+              ))}
+            </Box>
+          </Box>
         ))}
-      </Grid>
+      </Box>
     </Paper>
   );
 };
