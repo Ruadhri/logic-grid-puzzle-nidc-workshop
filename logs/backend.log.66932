@@ -1,0 +1,564 @@
+
+> logic-grid-puzzle-backend@0.1.0 dev
+> nodemon src/index.js
+
+2025-10-21T21:34:49.172Z nodemon bus new listener: reset (0)
+2025-10-21T21:34:49.173Z nodemon bus new listener: reset (0)
+2025-10-21T21:34:49.177Z nodemon bus new listener: quit (0)
+2025-10-21T21:34:49.177Z nodemon bus new listener: quit (0)
+2025-10-21T21:34:49.177Z nodemon bus new listener: restart (0)
+2025-10-21T21:34:49.177Z nodemon bus new listener: restart (0)
+2025-10-21T21:34:49.178Z nodemon bus new listener: boot (0)
+2025-10-21T21:34:49.178Z nodemon bus new listener: boot (0)
+2025-10-21T21:34:49.180Z nodemon bus new listener: reset (2)
+2025-10-21T21:34:49.181Z nodemon bus emit: boot
+2025-10-21T21:34:49.181Z nodemon bus emit: reset
+2025-10-21T21:34:49.181Z nodemon resetting watchers
+2025-10-21T21:34:49.181Z nodemon reset
+2025-10-21T21:34:49.213Z nodemon config: dirs [ '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/backend' ]
+[33m[nodemon] 3.1.10[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+2025-10-21T21:34:49.216Z nodemon bus new listener: error (0)
+2025-10-21T21:34:49.216Z nodemon bus new listener: error (0)
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node src/index.js`[39m
+2025-10-21T21:34:49.224Z nodemon:run fork sh -c node src/index.js
+2025-10-21T21:34:49.224Z nodemon bus new listener: exit (0)
+2025-10-21T21:34:49.224Z nodemon bus new listener: exit (0)
+2025-10-21T21:34:49.224Z nodemon:run start watch on: [ '*.*', re: /.*\..*/ ]
+2025-10-21T21:34:49.225Z nodemon start watch on: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/backend
+2025-10-21T21:34:49.225Z nodemon ignored [
+  '**/.git/**',
+  '**/.nyc_output/**',
+  '**/.sass-cache/**',
+  '**/bower_components/**',
+  '**/coverage/**',
+  '**/node_modules/**',
+  re: /.*.*\/\.git\/.*.*|.*.*\/\.nyc_output\/.*.*|.*.*\/\.sass\-cache\/.*.*|.*.*\/bower_components\/.*.*|.*.*\/coverage\/.*.*|.*.*\/node_modules\/.*.*/
+]
+2025-10-21T21:34:49.235Z nodemon:watch chokidar watching: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/backend/package-lock.json
+2025-10-21T21:34:49.236Z nodemon:watch chokidar watching: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/backend/package.json
+2025-10-21T21:34:49.239Z nodemon:watch chokidar watching: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/backend/tests/unit/engine.test.js
+2025-10-21T21:34:49.239Z nodemon:watch chokidar watching: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/backend/tests/api/puzzle.test.js
+2025-10-21T21:34:49.240Z nodemon:watch chokidar watching: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/backend/src/index.js
+2025-10-21T21:34:49.240Z nodemon:watch chokidar watching: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/backend/src/store.js
+2025-10-21T21:34:49.240Z nodemon:watch chokidar watching: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/backend/src/engine/engine.js
+2025-10-21T21:34:49.240Z nodemon:watch chokidar watching: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/backend/src/api/routes/puzzle.js
+2025-10-21T21:34:49.241Z nodemon:watch chokidar watching: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/backend/src/api/controllers/puzzle.js
+2025-10-21T21:34:49.241Z nodemon:watch chokidar watching: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/backend/data/puzzles/charitable-donations.json
+2025-10-21T21:34:49.241Z nodemon:watch chokidar watching: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/backend/data/puzzles/sample1.json
+2025-10-21T21:34:49.242Z nodemon watch is complete
+Tue, 21 Oct 2025 21:34:49 GMT express:application set "x-powered-by" to true
+Tue, 21 Oct 2025 21:34:49 GMT express:application set "etag" to 'weak'
+Tue, 21 Oct 2025 21:34:49 GMT express:application set "etag fn" to [Function: generateETag]
+Tue, 21 Oct 2025 21:34:49 GMT express:application set "env" to 'development'
+Tue, 21 Oct 2025 21:34:49 GMT express:application set "query parser" to 'extended'
+Tue, 21 Oct 2025 21:34:49 GMT express:application set "query parser fn" to [Function: parseExtendedQueryString]
+Tue, 21 Oct 2025 21:34:49 GMT express:application set "subdomain offset" to 2
+Tue, 21 Oct 2025 21:34:49 GMT express:application set "trust proxy" to false
+Tue, 21 Oct 2025 21:34:49 GMT express:application set "trust proxy fn" to [Function: trustNone]
+Tue, 21 Oct 2025 21:34:49 GMT express:application booting in development mode
+Tue, 21 Oct 2025 21:34:49 GMT express:application set "view" to [Function: View]
+Tue, 21 Oct 2025 21:34:49 GMT express:application set "views" to '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/backend/views'
+Tue, 21 Oct 2025 21:34:49 GMT express:application set "jsonp callback name" to 'callback'
+Tue, 21 Oct 2025 21:34:49 GMT express:router use '/' query
+Tue, 21 Oct 2025 21:34:49 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:34:49 GMT express:router use '/' expressInit
+Tue, 21 Oct 2025 21:34:49 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:34:49 GMT express:router use '/' <anonymous>
+Tue, 21 Oct 2025 21:34:49 GMT express:router:layer new '/'
+Starting server...
+Looking for puzzles in: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/backend/data/puzzles
+Found puzzle files: [ 'charitable-donations.json', 'sample1.json' ]
+Read puzzle data from /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/backend/data/puzzles/charitable-donations.json
+Parsed puzzle: charitable-donations
+Storing puzzle...
+Storing puzzle charitable-donations
+Now have 1 puzzles: [ 'charitable-donations' ]
+Read puzzle data from /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/backend/data/puzzles/sample1.json
+Parsed puzzle: sample1
+Storing puzzle...
+Storing puzzle sample1
+Now have 2 puzzles: [ 'charitable-donations', 'sample1' ]
+Successfully loaded 2 puzzles
+Tue, 21 Oct 2025 21:34:49 GMT express:router use '/' corsMiddleware
+Tue, 21 Oct 2025 21:34:49 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:34:49 GMT express:router use '/' jsonParser
+Tue, 21 Oct 2025 21:34:49 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:route new '/puzzles'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:layer new '/puzzles'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:route get '/puzzles'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:route new '/puzzles'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:layer new '/puzzles'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:route post '/puzzles'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:route new '/puzzles/:id'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:layer new '/puzzles/:id'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:route get '/puzzles/:id'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:route new '/puzzles/:id/state'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:layer new '/puzzles/:id/state'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:route post '/puzzles/:id/state'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:route new '/puzzles/:id/state'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:layer new '/puzzles/:id/state'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:route get '/puzzles/:id/state'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:route new '/puzzles/:id/state/marking'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:layer new '/puzzles/:id/state/marking'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:route post '/puzzles/:id/state/marking'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:route new '/puzzles/:id/state/undo'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:layer new '/puzzles/:id/state/undo'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:route post '/puzzles/:id/state/undo'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:route new '/puzzles/:id/state/validate'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:layer new '/puzzles/:id/state/validate'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:route get '/puzzles/:id/state/validate'
+Tue, 21 Oct 2025 21:34:49 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:34:49 GMT express:router use '/api' router
+Tue, 21 Oct 2025 21:34:49 GMT express:router:layer new '/api'
+Tue, 21 Oct 2025 21:34:49 GMT express:router use '/' <anonymous>
+Tue, 21 Oct 2025 21:34:49 GMT express:router:layer new '/'
+Logic Grid Puzzle server running on port 3001
+Tue, 21 Oct 2025 21:34:57 GMT express:router dispatching GET /api/puzzles
+Tue, 21 Oct 2025 21:34:57 GMT express:router query  : /api/puzzles
+Tue, 21 Oct 2025 21:34:57 GMT express:router expressInit  : /api/puzzles
+Tue, 21 Oct 2025 21:34:57 GMT express:router <anonymous>  : /api/puzzles
+GET /api/puzzles
+Tue, 21 Oct 2025 21:34:57 GMT express:router corsMiddleware  : /api/puzzles
+Tue, 21 Oct 2025 21:34:57 GMT express:router jsonParser  : /api/puzzles
+Tue, 21 Oct 2025 21:34:57 GMT body-parser:json skip empty body
+Tue, 21 Oct 2025 21:34:57 GMT express:router trim prefix (/api) from url /api/puzzles
+Tue, 21 Oct 2025 21:34:57 GMT express:router router /api : /api/puzzles
+Tue, 21 Oct 2025 21:34:57 GMT express:router dispatching GET /puzzles
+Tue, 21 Oct 2025 21:34:57 GMT express:router dispatching GET /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:34:57 GMT express:router query  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:34:57 GMT express:router expressInit  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:34:57 GMT express:router <anonymous>  : /api/puzzles/sample1/state
+GET /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:34:57 GMT express:router corsMiddleware  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:34:57 GMT express:router jsonParser  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:34:57 GMT body-parser:json skip empty body
+Tue, 21 Oct 2025 21:34:57 GMT express:router trim prefix (/api) from url /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:34:57 GMT express:router router /api : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:34:57 GMT express:router dispatching GET /puzzles/sample1/state
+Getting state for puzzle: sample1
+No state found for puzzle: sample1
+Tue, 21 Oct 2025 21:34:57 GMT express:router dispatching POST /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:34:57 GMT express:router query  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:34:57 GMT express:router expressInit  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:34:57 GMT express:router <anonymous>  : /api/puzzles/sample1/state
+POST /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:34:57 GMT express:router corsMiddleware  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:34:57 GMT express:router jsonParser  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:34:57 GMT body-parser:json content-type undefined
+Tue, 21 Oct 2025 21:34:57 GMT body-parser:json skip parsing
+Tue, 21 Oct 2025 21:34:57 GMT express:router trim prefix (/api) from url /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:34:57 GMT express:router router /api : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:34:57 GMT express:router dispatching POST /puzzles/sample1/state
+Creating state for puzzle: sample1
+Getting puzzle sample1 from collection with 2 puzzles
+Available puzzles: [ 'charitable-donations', 'sample1' ]
+Found puzzle: sample1
+Categories: Person, Pet, Color
+Engine created state with cells: 27
+State stored successfully
+Tue, 21 Oct 2025 21:34:57 GMT express:router dispatching GET /api/puzzles
+Tue, 21 Oct 2025 21:34:57 GMT express:router query  : /api/puzzles
+Tue, 21 Oct 2025 21:34:57 GMT express:router expressInit  : /api/puzzles
+Tue, 21 Oct 2025 21:34:57 GMT express:router <anonymous>  : /api/puzzles
+GET /api/puzzles
+Tue, 21 Oct 2025 21:34:57 GMT express:router corsMiddleware  : /api/puzzles
+Tue, 21 Oct 2025 21:34:57 GMT express:router jsonParser  : /api/puzzles
+Tue, 21 Oct 2025 21:34:57 GMT body-parser:json skip empty body
+Tue, 21 Oct 2025 21:34:57 GMT express:router trim prefix (/api) from url /api/puzzles
+Tue, 21 Oct 2025 21:34:57 GMT express:router router /api : /api/puzzles
+Tue, 21 Oct 2025 21:34:57 GMT express:router dispatching GET /puzzles
+Tue, 21 Oct 2025 21:35:08 GMT express:router dispatching GET /api/puzzles
+Tue, 21 Oct 2025 21:35:08 GMT express:router query  : /api/puzzles
+Tue, 21 Oct 2025 21:35:08 GMT express:router expressInit  : /api/puzzles
+Tue, 21 Oct 2025 21:35:08 GMT express:router <anonymous>  : /api/puzzles
+GET /api/puzzles
+Tue, 21 Oct 2025 21:35:08 GMT express:router corsMiddleware  : /api/puzzles
+Tue, 21 Oct 2025 21:35:08 GMT express:router jsonParser  : /api/puzzles
+Tue, 21 Oct 2025 21:35:08 GMT body-parser:json skip empty body
+Tue, 21 Oct 2025 21:35:08 GMT express:router trim prefix (/api) from url /api/puzzles
+Tue, 21 Oct 2025 21:35:08 GMT express:router router /api : /api/puzzles
+Tue, 21 Oct 2025 21:35:08 GMT express:router dispatching GET /puzzles
+Tue, 21 Oct 2025 21:35:08 GMT express:router dispatching GET /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:35:08 GMT express:router query  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:35:08 GMT express:router expressInit  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:35:08 GMT express:router <anonymous>  : /api/puzzles/sample1/state
+GET /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:35:08 GMT express:router corsMiddleware  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:35:08 GMT express:router jsonParser  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:35:08 GMT body-parser:json skip empty body
+Tue, 21 Oct 2025 21:35:08 GMT express:router trim prefix (/api) from url /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:35:08 GMT express:router router /api : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:35:08 GMT express:router dispatching GET /puzzles/sample1/state
+Getting state for puzzle: sample1
+Found state with cells: 27
+Tue, 21 Oct 2025 21:35:09 GMT express:router dispatching GET /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:09 GMT express:router query  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:09 GMT express:router expressInit  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:09 GMT express:router <anonymous>  : /api/puzzles/charitable-donations/state
+GET /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:09 GMT express:router corsMiddleware  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:09 GMT express:router jsonParser  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:09 GMT body-parser:json skip empty body
+Tue, 21 Oct 2025 21:35:09 GMT express:router trim prefix (/api) from url /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:09 GMT express:router router /api : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:09 GMT express:router dispatching GET /puzzles/charitable-donations/state
+Getting state for puzzle: charitable-donations
+No state found for puzzle: charitable-donations
+Tue, 21 Oct 2025 21:35:09 GMT express:router dispatching POST /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:09 GMT express:router query  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:09 GMT express:router expressInit  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:09 GMT express:router <anonymous>  : /api/puzzles/charitable-donations/state
+POST /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:09 GMT express:router corsMiddleware  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:09 GMT express:router jsonParser  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:09 GMT body-parser:json content-type undefined
+Tue, 21 Oct 2025 21:35:09 GMT body-parser:json skip parsing
+Tue, 21 Oct 2025 21:35:09 GMT express:router trim prefix (/api) from url /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:09 GMT express:router router /api : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:09 GMT express:router dispatching POST /puzzles/charitable-donations/state
+Creating state for puzzle: charitable-donations
+Getting puzzle charitable-donations from collection with 2 puzzles
+Available puzzles: [ 'charitable-donations', 'sample1' ]
+Found puzzle: charitable-donations
+Categories: Donor, Building, History, Donation
+Engine created state with cells: 150
+State stored successfully
+Tue, 21 Oct 2025 21:35:09 GMT express:router dispatching GET /api/puzzles
+Tue, 21 Oct 2025 21:35:09 GMT express:router query  : /api/puzzles
+Tue, 21 Oct 2025 21:35:09 GMT express:router expressInit  : /api/puzzles
+Tue, 21 Oct 2025 21:35:09 GMT express:router <anonymous>  : /api/puzzles
+GET /api/puzzles
+Tue, 21 Oct 2025 21:35:09 GMT express:router corsMiddleware  : /api/puzzles
+Tue, 21 Oct 2025 21:35:09 GMT express:router jsonParser  : /api/puzzles
+Tue, 21 Oct 2025 21:35:09 GMT body-parser:json skip empty body
+Tue, 21 Oct 2025 21:35:09 GMT express:router trim prefix (/api) from url /api/puzzles
+Tue, 21 Oct 2025 21:35:09 GMT express:router router /api : /api/puzzles
+Tue, 21 Oct 2025 21:35:09 GMT express:router dispatching GET /puzzles
+Tue, 21 Oct 2025 21:35:26 GMT express:router dispatching GET /api/puzzles
+Tue, 21 Oct 2025 21:35:26 GMT express:router query  : /api/puzzles
+Tue, 21 Oct 2025 21:35:26 GMT express:router expressInit  : /api/puzzles
+Tue, 21 Oct 2025 21:35:26 GMT express:router <anonymous>  : /api/puzzles
+GET /api/puzzles
+Tue, 21 Oct 2025 21:35:26 GMT express:router corsMiddleware  : /api/puzzles
+Tue, 21 Oct 2025 21:35:26 GMT express:router jsonParser  : /api/puzzles
+Tue, 21 Oct 2025 21:35:26 GMT body-parser:json skip empty body
+Tue, 21 Oct 2025 21:35:26 GMT express:router trim prefix (/api) from url /api/puzzles
+Tue, 21 Oct 2025 21:35:26 GMT express:router router /api : /api/puzzles
+Tue, 21 Oct 2025 21:35:26 GMT express:router dispatching GET /puzzles
+Tue, 21 Oct 2025 21:35:26 GMT express:router dispatching GET /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:26 GMT express:router query  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:26 GMT express:router expressInit  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:26 GMT express:router <anonymous>  : /api/puzzles/charitable-donations/state
+GET /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:26 GMT express:router corsMiddleware  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:26 GMT express:router jsonParser  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:26 GMT body-parser:json skip empty body
+Tue, 21 Oct 2025 21:35:26 GMT express:router trim prefix (/api) from url /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:26 GMT express:router router /api : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:26 GMT express:router dispatching GET /puzzles/charitable-donations/state
+Getting state for puzzle: charitable-donations
+Found state with cells: 150
+Tue, 21 Oct 2025 21:35:28 GMT express:router dispatching GET /api/puzzles
+Tue, 21 Oct 2025 21:35:28 GMT express:router query  : /api/puzzles
+Tue, 21 Oct 2025 21:35:28 GMT express:router expressInit  : /api/puzzles
+Tue, 21 Oct 2025 21:35:28 GMT express:router <anonymous>  : /api/puzzles
+GET /api/puzzles
+Tue, 21 Oct 2025 21:35:28 GMT express:router corsMiddleware  : /api/puzzles
+Tue, 21 Oct 2025 21:35:28 GMT express:router jsonParser  : /api/puzzles
+Tue, 21 Oct 2025 21:35:28 GMT body-parser:json skip empty body
+Tue, 21 Oct 2025 21:35:28 GMT express:router trim prefix (/api) from url /api/puzzles
+Tue, 21 Oct 2025 21:35:28 GMT express:router router /api : /api/puzzles
+Tue, 21 Oct 2025 21:35:28 GMT express:router dispatching GET /puzzles
+Tue, 21 Oct 2025 21:35:28 GMT express:router dispatching GET /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:35:28 GMT express:router query  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:35:28 GMT express:router expressInit  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:35:28 GMT express:router <anonymous>  : /api/puzzles/sample1/state
+GET /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:35:28 GMT express:router corsMiddleware  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:35:28 GMT express:router jsonParser  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:35:28 GMT body-parser:json skip empty body
+Tue, 21 Oct 2025 21:35:28 GMT express:router trim prefix (/api) from url /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:35:28 GMT express:router router /api : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:35:28 GMT express:router dispatching GET /puzzles/sample1/state
+Getting state for puzzle: sample1
+Found state with cells: 27
+Tue, 21 Oct 2025 21:35:28 GMT express:router dispatching GET /api/puzzles
+Tue, 21 Oct 2025 21:35:28 GMT express:router query  : /api/puzzles
+Tue, 21 Oct 2025 21:35:28 GMT express:router expressInit  : /api/puzzles
+Tue, 21 Oct 2025 21:35:28 GMT express:router <anonymous>  : /api/puzzles
+GET /api/puzzles
+Tue, 21 Oct 2025 21:35:28 GMT express:router corsMiddleware  : /api/puzzles
+Tue, 21 Oct 2025 21:35:28 GMT express:router jsonParser  : /api/puzzles
+Tue, 21 Oct 2025 21:35:28 GMT body-parser:json skip empty body
+Tue, 21 Oct 2025 21:35:28 GMT express:router trim prefix (/api) from url /api/puzzles
+Tue, 21 Oct 2025 21:35:28 GMT express:router router /api : /api/puzzles
+Tue, 21 Oct 2025 21:35:28 GMT express:router dispatching GET /puzzles
+Tue, 21 Oct 2025 21:35:38 GMT express:router dispatching GET /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:38 GMT express:router query  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:38 GMT express:router expressInit  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:38 GMT express:router <anonymous>  : /api/puzzles/charitable-donations/state
+GET /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:38 GMT express:router corsMiddleware  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:38 GMT express:router jsonParser  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:38 GMT body-parser:json skip empty body
+Tue, 21 Oct 2025 21:35:38 GMT express:router trim prefix (/api) from url /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:38 GMT express:router router /api : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:35:38 GMT express:router dispatching GET /puzzles/charitable-donations/state
+Getting state for puzzle: charitable-donations
+Found state with cells: 150
+Tue, 21 Oct 2025 21:35:38 GMT express:router dispatching GET /api/puzzles
+Tue, 21 Oct 2025 21:35:38 GMT express:router query  : /api/puzzles
+Tue, 21 Oct 2025 21:35:38 GMT express:router expressInit  : /api/puzzles
+Tue, 21 Oct 2025 21:35:38 GMT express:router <anonymous>  : /api/puzzles
+GET /api/puzzles
+Tue, 21 Oct 2025 21:35:38 GMT express:router corsMiddleware  : /api/puzzles
+Tue, 21 Oct 2025 21:35:38 GMT express:router jsonParser  : /api/puzzles
+Tue, 21 Oct 2025 21:35:38 GMT body-parser:json skip empty body
+Tue, 21 Oct 2025 21:35:38 GMT express:router trim prefix (/api) from url /api/puzzles
+Tue, 21 Oct 2025 21:35:38 GMT express:router router /api : /api/puzzles
+Tue, 21 Oct 2025 21:35:38 GMT express:router dispatching GET /puzzles
+Tue, 21 Oct 2025 21:36:16 GMT express:router dispatching GET /api/puzzles
+Tue, 21 Oct 2025 21:36:16 GMT express:router query  : /api/puzzles
+Tue, 21 Oct 2025 21:36:16 GMT express:router expressInit  : /api/puzzles
+Tue, 21 Oct 2025 21:36:16 GMT express:router <anonymous>  : /api/puzzles
+GET /api/puzzles
+Tue, 21 Oct 2025 21:36:16 GMT express:router corsMiddleware  : /api/puzzles
+Tue, 21 Oct 2025 21:36:16 GMT express:router jsonParser  : /api/puzzles
+Tue, 21 Oct 2025 21:36:16 GMT body-parser:json skip empty body
+Tue, 21 Oct 2025 21:36:16 GMT express:router trim prefix (/api) from url /api/puzzles
+Tue, 21 Oct 2025 21:36:16 GMT express:router router /api : /api/puzzles
+Tue, 21 Oct 2025 21:36:16 GMT express:router dispatching GET /puzzles
+Tue, 21 Oct 2025 21:36:16 GMT express:router dispatching GET /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:36:16 GMT express:router query  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:36:16 GMT express:router expressInit  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:36:16 GMT express:router <anonymous>  : /api/puzzles/charitable-donations/state
+GET /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:36:16 GMT express:router corsMiddleware  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:36:16 GMT express:router jsonParser  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:36:16 GMT body-parser:json skip empty body
+Tue, 21 Oct 2025 21:36:16 GMT express:router trim prefix (/api) from url /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:36:16 GMT express:router router /api : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:36:16 GMT express:router dispatching GET /puzzles/charitable-donations/state
+Getting state for puzzle: charitable-donations
+Found state with cells: 150
+Tue, 21 Oct 2025 21:36:18 GMT express:router dispatching GET /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:36:18 GMT express:router query  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:36:18 GMT express:router expressInit  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:36:18 GMT express:router <anonymous>  : /api/puzzles/sample1/state
+GET /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:36:18 GMT express:router corsMiddleware  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:36:18 GMT express:router jsonParser  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:36:18 GMT body-parser:json skip empty body
+Tue, 21 Oct 2025 21:36:18 GMT express:router trim prefix (/api) from url /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:36:18 GMT express:router router /api : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:36:18 GMT express:router dispatching GET /puzzles/sample1/state
+Getting state for puzzle: sample1
+Found state with cells: 27
+Tue, 21 Oct 2025 21:36:36 GMT express:router dispatching GET /api/puzzles
+Tue, 21 Oct 2025 21:36:36 GMT express:router query  : /api/puzzles
+Tue, 21 Oct 2025 21:36:36 GMT express:router expressInit  : /api/puzzles
+Tue, 21 Oct 2025 21:36:36 GMT express:router <anonymous>  : /api/puzzles
+GET /api/puzzles
+Tue, 21 Oct 2025 21:36:36 GMT express:router corsMiddleware  : /api/puzzles
+Tue, 21 Oct 2025 21:36:36 GMT express:router jsonParser  : /api/puzzles
+Tue, 21 Oct 2025 21:36:36 GMT body-parser:json skip empty body
+Tue, 21 Oct 2025 21:36:36 GMT express:router trim prefix (/api) from url /api/puzzles
+Tue, 21 Oct 2025 21:36:36 GMT express:router router /api : /api/puzzles
+Tue, 21 Oct 2025 21:36:36 GMT express:router dispatching GET /puzzles
+Tue, 21 Oct 2025 21:36:36 GMT express:router dispatching GET /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:36:36 GMT express:router query  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:36:36 GMT express:router expressInit  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:36:36 GMT express:router <anonymous>  : /api/puzzles/sample1/state
+GET /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:36:36 GMT express:router corsMiddleware  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:36:36 GMT express:router jsonParser  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:36:36 GMT body-parser:json skip empty body
+Tue, 21 Oct 2025 21:36:36 GMT express:router trim prefix (/api) from url /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:36:36 GMT express:router router /api : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:36:36 GMT express:router dispatching GET /puzzles/sample1/state
+Getting state for puzzle: sample1
+Found state with cells: 27
+Tue, 21 Oct 2025 21:37:04 GMT express:router dispatching GET /api/puzzles
+Tue, 21 Oct 2025 21:37:04 GMT express:router query  : /api/puzzles
+Tue, 21 Oct 2025 21:37:04 GMT express:router expressInit  : /api/puzzles
+Tue, 21 Oct 2025 21:37:04 GMT express:router <anonymous>  : /api/puzzles
+GET /api/puzzles
+Tue, 21 Oct 2025 21:37:04 GMT express:router corsMiddleware  : /api/puzzles
+Tue, 21 Oct 2025 21:37:04 GMT express:router jsonParser  : /api/puzzles
+Tue, 21 Oct 2025 21:37:04 GMT body-parser:json skip empty body
+Tue, 21 Oct 2025 21:37:04 GMT express:router trim prefix (/api) from url /api/puzzles
+Tue, 21 Oct 2025 21:37:04 GMT express:router router /api : /api/puzzles
+Tue, 21 Oct 2025 21:37:04 GMT express:router dispatching GET /puzzles
+Tue, 21 Oct 2025 21:37:04 GMT express:router dispatching GET /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:37:04 GMT express:router query  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:37:04 GMT express:router expressInit  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:37:04 GMT express:router <anonymous>  : /api/puzzles/sample1/state
+GET /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:37:04 GMT express:router corsMiddleware  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:37:04 GMT express:router jsonParser  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:37:04 GMT body-parser:json skip empty body
+Tue, 21 Oct 2025 21:37:04 GMT express:router trim prefix (/api) from url /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:37:04 GMT express:router router /api : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:37:04 GMT express:router dispatching GET /puzzles/sample1/state
+Getting state for puzzle: sample1
+Found state with cells: 27
+Tue, 21 Oct 2025 21:37:18 GMT express:router dispatching GET /api/puzzles
+Tue, 21 Oct 2025 21:37:18 GMT express:router query  : /api/puzzles
+Tue, 21 Oct 2025 21:37:18 GMT express:router expressInit  : /api/puzzles
+Tue, 21 Oct 2025 21:37:18 GMT express:router <anonymous>  : /api/puzzles
+GET /api/puzzles
+Tue, 21 Oct 2025 21:37:18 GMT express:router corsMiddleware  : /api/puzzles
+Tue, 21 Oct 2025 21:37:18 GMT express:router jsonParser  : /api/puzzles
+Tue, 21 Oct 2025 21:37:18 GMT body-parser:json skip empty body
+Tue, 21 Oct 2025 21:37:18 GMT express:router trim prefix (/api) from url /api/puzzles
+Tue, 21 Oct 2025 21:37:18 GMT express:router router /api : /api/puzzles
+Tue, 21 Oct 2025 21:37:18 GMT express:router dispatching GET /puzzles
+Tue, 21 Oct 2025 21:37:18 GMT express:router dispatching GET /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:37:18 GMT express:router query  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:37:18 GMT express:router expressInit  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:37:18 GMT express:router <anonymous>  : /api/puzzles/sample1/state
+GET /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:37:18 GMT express:router corsMiddleware  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:37:18 GMT express:router jsonParser  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:37:18 GMT body-parser:json skip empty body
+Tue, 21 Oct 2025 21:37:18 GMT express:router trim prefix (/api) from url /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:37:18 GMT express:router router /api : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:37:18 GMT express:router dispatching GET /puzzles/sample1/state
+Getting state for puzzle: sample1
+Found state with cells: 27
+Tue, 21 Oct 2025 21:37:20 GMT express:router dispatching GET /api/puzzles
+Tue, 21 Oct 2025 21:37:20 GMT express:router query  : /api/puzzles
+Tue, 21 Oct 2025 21:37:20 GMT express:router expressInit  : /api/puzzles
+Tue, 21 Oct 2025 21:37:20 GMT express:router <anonymous>  : /api/puzzles
+GET /api/puzzles
+Tue, 21 Oct 2025 21:37:20 GMT express:router corsMiddleware  : /api/puzzles
+Tue, 21 Oct 2025 21:37:20 GMT express:router jsonParser  : /api/puzzles
+Tue, 21 Oct 2025 21:37:20 GMT body-parser:json skip empty body
+Tue, 21 Oct 2025 21:37:20 GMT express:router trim prefix (/api) from url /api/puzzles
+Tue, 21 Oct 2025 21:37:20 GMT express:router router /api : /api/puzzles
+Tue, 21 Oct 2025 21:37:20 GMT express:router dispatching GET /puzzles
+Tue, 21 Oct 2025 21:37:20 GMT express:router dispatching GET /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:37:20 GMT express:router query  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:37:20 GMT express:router expressInit  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:37:20 GMT express:router <anonymous>  : /api/puzzles/sample1/state
+GET /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:37:20 GMT express:router corsMiddleware  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:37:20 GMT express:router jsonParser  : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:37:20 GMT body-parser:json skip empty body
+Tue, 21 Oct 2025 21:37:20 GMT express:router trim prefix (/api) from url /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:37:20 GMT express:router router /api : /api/puzzles/sample1/state
+Tue, 21 Oct 2025 21:37:20 GMT express:router dispatching GET /puzzles/sample1/state
+Getting state for puzzle: sample1
+Found state with cells: 27
+2025-10-21T21:39:38.022Z nodemon:watch filterAndRestart on [ 'src/engine/engine.js' ]
+2025-10-21T21:39:38.022Z nodemon:match rules [
+  '!**/**/node_modules/**',
+  '!**/**/coverage/**',
+  '!**/**/bower_components/**',
+  '!**/**/.sass-cache/**',
+  '!**/**/.nyc_output/**',
+  '!**/**/.git/**',
+  '**/*.*'
+]
+2025-10-21T21:39:38.024Z nodemon:match matched /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/backend/src/engine/engine.js rule: **/*.*
+2025-10-21T21:39:38.025Z nodemon:match good (filtered by ext) [
+  '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/backend/src/engine/engine.js'
+]
+2025-10-21T21:39:38.025Z nodemon:watch matched? {"result":["/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/backend/src/engine/engine.js"],"ignored":0,"watched":1,"total":1}
+[32m[nodemon] restarting due to changes...[39m
+2025-10-21T21:39:38.025Z nodemon bus emit: restart
+2025-10-21T21:39:38.068Z nodemon:run sending kill signal to 
+2025-10-21T21:39:38.068Z nodemon:run checking ps tree for pids of 67257
+2025-10-21T21:39:38.072Z nodemon:run bus.emit(exit) via SIGUSR2
+2025-10-21T21:39:38.072Z nodemon bus emit: exit
+[32m[nodemon] starting `node src/index.js`[39m
+2025-10-21T21:39:38.074Z nodemon:run fork sh -c node src/index.js
+2025-10-21T21:39:38.074Z nodemon bus new listener: exit (1)
+2025-10-21T21:39:38.074Z nodemon:run start watch on: [ '*.*', re: /.*\..*/ ]
+2025-10-21T21:39:38.074Z nodemon:watch early exit on watch, still watching (1)
+Tue, 21 Oct 2025 21:39:38 GMT express:application set "x-powered-by" to true
+Tue, 21 Oct 2025 21:39:38 GMT express:application set "etag" to 'weak'
+Tue, 21 Oct 2025 21:39:38 GMT express:application set "etag fn" to [Function: generateETag]
+Tue, 21 Oct 2025 21:39:38 GMT express:application set "env" to 'development'
+Tue, 21 Oct 2025 21:39:38 GMT express:application set "query parser" to 'extended'
+Tue, 21 Oct 2025 21:39:38 GMT express:application set "query parser fn" to [Function: parseExtendedQueryString]
+Tue, 21 Oct 2025 21:39:38 GMT express:application set "subdomain offset" to 2
+Tue, 21 Oct 2025 21:39:38 GMT express:application set "trust proxy" to false
+Tue, 21 Oct 2025 21:39:38 GMT express:application set "trust proxy fn" to [Function: trustNone]
+Tue, 21 Oct 2025 21:39:38 GMT express:application booting in development mode
+Tue, 21 Oct 2025 21:39:38 GMT express:application set "view" to [Function: View]
+Tue, 21 Oct 2025 21:39:38 GMT express:application set "views" to '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/backend/views'
+Tue, 21 Oct 2025 21:39:38 GMT express:application set "jsonp callback name" to 'callback'
+Tue, 21 Oct 2025 21:39:38 GMT express:router use '/' query
+Tue, 21 Oct 2025 21:39:38 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:39:38 GMT express:router use '/' expressInit
+Tue, 21 Oct 2025 21:39:38 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:39:38 GMT express:router use '/' <anonymous>
+Tue, 21 Oct 2025 21:39:38 GMT express:router:layer new '/'
+Starting server...
+Looking for puzzles in: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/backend/data/puzzles
+Found puzzle files: [ 'charitable-donations.json', 'sample1.json' ]
+Read puzzle data from /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/backend/data/puzzles/charitable-donations.json
+Parsed puzzle: charitable-donations
+Storing puzzle...
+Storing puzzle charitable-donations
+Now have 1 puzzles: [ 'charitable-donations' ]
+Read puzzle data from /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/backend/data/puzzles/sample1.json
+Parsed puzzle: sample1
+Storing puzzle...
+Storing puzzle sample1
+Now have 2 puzzles: [ 'charitable-donations', 'sample1' ]
+Successfully loaded 2 puzzles
+Tue, 21 Oct 2025 21:39:38 GMT express:router use '/' corsMiddleware
+Tue, 21 Oct 2025 21:39:38 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:39:38 GMT express:router use '/' jsonParser
+Tue, 21 Oct 2025 21:39:38 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:route new '/puzzles'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:layer new '/puzzles'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:route get '/puzzles'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:route new '/puzzles'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:layer new '/puzzles'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:route post '/puzzles'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:route new '/puzzles/:id'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:layer new '/puzzles/:id'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:route get '/puzzles/:id'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:route new '/puzzles/:id/state'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:layer new '/puzzles/:id/state'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:route post '/puzzles/:id/state'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:route new '/puzzles/:id/state'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:layer new '/puzzles/:id/state'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:route get '/puzzles/:id/state'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:route new '/puzzles/:id/state/marking'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:layer new '/puzzles/:id/state/marking'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:route post '/puzzles/:id/state/marking'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:route new '/puzzles/:id/state/undo'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:layer new '/puzzles/:id/state/undo'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:route post '/puzzles/:id/state/undo'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:route new '/puzzles/:id/state/validate'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:layer new '/puzzles/:id/state/validate'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:route get '/puzzles/:id/state/validate'
+Tue, 21 Oct 2025 21:39:38 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:39:38 GMT express:router use '/api' router
+Tue, 21 Oct 2025 21:39:38 GMT express:router:layer new '/api'
+Tue, 21 Oct 2025 21:39:38 GMT express:router use '/' <anonymous>
+Tue, 21 Oct 2025 21:39:38 GMT express:router:layer new '/'
+Logic Grid Puzzle server running on port 3001
+2025-10-21T21:39:54.190Z nodemon bus emit: quit
+2025-10-21T21:39:54.195Z nodemon bus emit: quit

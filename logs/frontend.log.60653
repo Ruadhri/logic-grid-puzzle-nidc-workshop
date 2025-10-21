@@ -1,0 +1,624 @@
+
+> frontend@0.1.0 start
+> react-scripts start
+
+Tue, 21 Oct 2025 21:14:58 GMT detect-port detect free port between [3000, 3010)
+Tue, 21 Oct 2025 21:14:58 GMT detect-port get free 0.0.0.0:3000
+Tue, 21 Oct 2025 21:14:58 GMT detect-port get free null:3000
+Tue, 21 Oct 2025 21:14:58 GMT detect-port get free localhost:3000
+Tue, 21 Oct 2025 21:14:58 GMT detect-port get free 192.168.86.35:3000
+Tue, 21 Oct 2025 21:14:59 GMT express:application set "x-powered-by" to true
+Tue, 21 Oct 2025 21:14:59 GMT express:application set "etag" to 'weak'
+Tue, 21 Oct 2025 21:14:59 GMT express:application set "etag fn" to [Function: generateETag]
+Tue, 21 Oct 2025 21:14:59 GMT express:application set "env" to 'development'
+Tue, 21 Oct 2025 21:14:59 GMT express:application set "query parser" to 'extended'
+Tue, 21 Oct 2025 21:14:59 GMT express:application set "query parser fn" to [Function: parseExtendedQueryString]
+Tue, 21 Oct 2025 21:14:59 GMT express:application set "subdomain offset" to 2
+Tue, 21 Oct 2025 21:14:59 GMT express:application set "trust proxy" to false
+Tue, 21 Oct 2025 21:14:59 GMT express:application set "trust proxy fn" to [Function: trustNone]
+Tue, 21 Oct 2025 21:14:59 GMT express:application booting in development mode
+Tue, 21 Oct 2025 21:14:59 GMT express:application set "view" to [Function: View]
+Tue, 21 Oct 2025 21:14:59 GMT express:application set "views" to '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/views'
+Tue, 21 Oct 2025 21:14:59 GMT express:application set "jsonp callback name" to 'callback'
+Tue, 21 Oct 2025 21:14:59 GMT express:router use '/' query
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router use '/' expressInit
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route new '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route acl '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route bind '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route checkout '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route connect '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route copy '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route delete '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route get '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route head '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route link '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route lock '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route m-search '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route merge '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route mkactivity '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route mkcalendar '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route mkcol '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route move '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route notify '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route options '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route patch '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route post '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route propfind '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route proppatch '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route purge '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route put '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route rebind '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route report '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route search '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route source '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route subscribe '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route trace '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route unbind '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route unlink '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route unlock '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route unsubscribe '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route new '/__webpack_dev_server__/sockjs.bundle.js'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/__webpack_dev_server__/sockjs.bundle.js'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route get '/__webpack_dev_server__/sockjs.bundle.js'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route new '/webpack-dev-server/invalidate'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/webpack-dev-server/invalidate'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route get '/webpack-dev-server/invalidate'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route new '/webpack-dev-server/open-editor'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/webpack-dev-server/open-editor'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route get '/webpack-dev-server/open-editor'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route new '/webpack-dev-server'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/webpack-dev-server'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:route get '/webpack-dev-server'
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router use '/' handleWebpackInternalMiddleware
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router use '/' compression
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router use '*' bound setHeaders
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router use '/' middleware
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router use '/' handler
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router use '/' middleware
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router use '/' middleware
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router use '/' serveStatic
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router use '/' <anonymous>
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router use '/' middleware
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router use '/' serveStatic
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router use '/' middleware
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router use '/' bound serveMagicHtml
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router use '*' middleware
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '*'
+Tue, 21 Oct 2025 21:14:59 GMT express:router use '/' redirectServedPathMiddleware
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+Tue, 21 Oct 2025 21:14:59 GMT express:router use '/' noopServiceWorkerMiddleware
+Tue, 21 Oct 2025 21:14:59 GMT express:router:layer new '/'
+(node:60996) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:60996) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+2025-10-21T21:14:59.768Z eslintrc:config-array-factory Loading {extends:"/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/base.js"} relative to 
+2025-10-21T21:14:59.769Z eslintrc:config-array-factory package.json was not found: Cannot find module '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/base.js/package.json'
+Require stack:
+- /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/__placeholder__.js
+2025-10-21T21:14:59.769Z eslintrc:config-array-factory Loaded: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/base.js (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/base.js)
+2025-10-21T21:14:59.769Z eslintrc:config-array-factory Loading JS config file: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/base.js
+2025-10-21T21:14:59.773Z eslintrc:config-array-factory Loading parser "@babel/eslint-parser" from /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/base.js
+2025-10-21T21:14:59.774Z eslintrc:config-array-factory Loaded: @babel/eslint-parser@7.28.4 (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/eslint-parser/lib/index.cjs)
+2025-10-21T21:14:59.793Z eslintrc:config-array-factory Loading plugin "react" from /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/base.js
+2025-10-21T21:14:59.793Z eslintrc:config-array-factory Loaded: eslint-plugin-react@7.37.5 (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-plugin-react/index.js)
+2025-10-21T21:14:59.990Z eslintrc:config-array-factory Plugin /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-plugin-react/index.js loaded in: 196ms
+2025-10-21T21:14:59.991Z eslintrc:config-array-factory Loading JSON config file: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/package.json
+2025-10-21T21:14:59.993Z eslintrc:ignore-pattern Create with: [ IgnorePattern { patterns: [ '/**/node_modules/*' ], basePath: '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend', loose: false } ]
+2025-10-21T21:14:59.995Z eslintrc:ignore-pattern   processed: { basePath: '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend', patterns: [ '/**/node_modules/*' ] }
+2025-10-21T21:14:59.995Z eslint:lint-result-cache Caching results to /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/.cache/.eslintcache
+2025-10-21T21:14:59.995Z eslint:lint-result-cache Using "metadata" strategy to detect changes
+2025-10-21T21:15:00.007Z eslintrc:ignore-pattern Create with: [ IgnorePattern { patterns: [ '/**/node_modules/*' ], basePath: '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend', loose: false } ]
+2025-10-21T21:15:00.008Z eslintrc:ignore-pattern   processed: { basePath: '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend', patterns: [ '/**/node_modules/*' ] }
+Starting the development server...
+
+Tue, 21 Oct 2025 21:15:01 GMT express:router dispatching GET /
+Tue, 21 Oct 2025 21:15:01 GMT express:router query  : /
+Tue, 21 Oct 2025 21:15:01 GMT express:router expressInit  : /
+Tue, 21 Oct 2025 21:15:01 GMT express:router handleWebpackInternalMiddleware  : /
+Tue, 21 Oct 2025 21:15:01 GMT express:router compression  : /
+Tue, 21 Oct 2025 21:15:01 GMT express:router trim prefix (/) from url /
+Tue, 21 Oct 2025 21:15:01 GMT express:router bound setHeaders / : /
+Tue, 21 Oct 2025 21:15:01 GMT express:router middleware  : /
+Compiled successfully!
+
+You can now view frontend in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.86.35:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+Tue, 21 Oct 2025 21:15:03 GMT compression gzip compression
+Files successfully emitted, waiting for typecheck results...
+Issues checking in progress...
+Tue, 21 Oct 2025 21:15:03 GMT express:router dispatching GET /manifest.json
+Tue, 21 Oct 2025 21:15:03 GMT express:router query  : /manifest.json
+Tue, 21 Oct 2025 21:15:03 GMT express:router expressInit  : /manifest.json
+Tue, 21 Oct 2025 21:15:03 GMT express:router handleWebpackInternalMiddleware  : /manifest.json
+Tue, 21 Oct 2025 21:15:03 GMT express:router compression  : /manifest.json
+Tue, 21 Oct 2025 21:15:03 GMT express:router trim prefix (/manifest.json) from url /manifest.json
+Tue, 21 Oct 2025 21:15:03 GMT express:router bound setHeaders /manifest.json : /manifest.json
+Tue, 21 Oct 2025 21:15:03 GMT express:router middleware  : /manifest.json
+Tue, 21 Oct 2025 21:15:03 GMT express:router handler  : /manifest.json
+Tue, 21 Oct 2025 21:15:03 GMT express:router middleware  : /manifest.json
+Tue, 21 Oct 2025 21:15:03 GMT express:router middleware  : /manifest.json
+Tue, 21 Oct 2025 21:15:03 GMT express:router serveStatic  : /manifest.json
+Tue, 21 Oct 2025 21:15:03 GMT send stat "/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/public/manifest.json"
+Tue, 21 Oct 2025 21:15:03 GMT send pipe "/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/public/manifest.json"
+Tue, 21 Oct 2025 21:15:03 GMT send accept ranges
+Tue, 21 Oct 2025 21:15:03 GMT send cache-control public, max-age=0
+Tue, 21 Oct 2025 21:15:03 GMT send modified Mon, 20 Oct 2025 20:28:30 GMT
+Tue, 21 Oct 2025 21:15:03 GMT send etag W/"1ec-19a034f28e2"
+Tue, 21 Oct 2025 21:15:03 GMT send content-type application/json
+Tue, 21 Oct 2025 21:15:03 GMT express:router dispatching GET /static/js/bundle.js
+Tue, 21 Oct 2025 21:15:03 GMT express:router query  : /static/js/bundle.js
+Tue, 21 Oct 2025 21:15:03 GMT express:router expressInit  : /static/js/bundle.js
+Tue, 21 Oct 2025 21:15:03 GMT express:router handleWebpackInternalMiddleware  : /static/js/bundle.js
+Tue, 21 Oct 2025 21:15:03 GMT express:router compression  : /static/js/bundle.js
+Tue, 21 Oct 2025 21:15:03 GMT express:router trim prefix (/static/js/bundle.js) from url /static/js/bundle.js
+Tue, 21 Oct 2025 21:15:03 GMT express:router bound setHeaders /static/js/bundle.js : /static/js/bundle.js
+Tue, 21 Oct 2025 21:15:03 GMT express:router middleware  : /static/js/bundle.js
+Tue, 21 Oct 2025 21:15:03 GMT compression gzip compression
+Tue, 21 Oct 2025 21:15:03 GMT compression no compression: size below threshold
+Tue, 21 Oct 2025 21:15:03 GMT express:router dispatching GET /api/puzzles
+Tue, 21 Oct 2025 21:15:03 GMT express:router query  : /api/puzzles
+Tue, 21 Oct 2025 21:15:03 GMT express:router expressInit  : /api/puzzles
+Tue, 21 Oct 2025 21:15:03 GMT express:router handleWebpackInternalMiddleware  : /api/puzzles
+Tue, 21 Oct 2025 21:15:03 GMT express:router compression  : /api/puzzles
+Tue, 21 Oct 2025 21:15:03 GMT express:router trim prefix (/api/puzzles) from url /api/puzzles
+Tue, 21 Oct 2025 21:15:03 GMT express:router bound setHeaders /api/puzzles : /api/puzzles
+Tue, 21 Oct 2025 21:15:03 GMT express:router middleware  : /api/puzzles
+Tue, 21 Oct 2025 21:15:03 GMT express:router handler  : /api/puzzles
+Tue, 21 Oct 2025 21:15:03 GMT compression undefined not compressible
+Tue, 21 Oct 2025 21:15:03 GMT compression no compression: filtered
+Tue, 21 Oct 2025 21:15:03 GMT express:router dispatching GET /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:03 GMT express:router query  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:03 GMT express:router expressInit  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:03 GMT express:router handleWebpackInternalMiddleware  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:03 GMT express:router compression  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:03 GMT express:router trim prefix (/api/puzzles/charitable-donations/state) from url /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:03 GMT express:router bound setHeaders /api/puzzles/charitable-donations/state : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:03 GMT express:router middleware  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:03 GMT express:router handler  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:03 GMT compression no compression: size below threshold
+Tue, 21 Oct 2025 21:15:03 GMT express:router dispatching POST /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:03 GMT express:router query  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:03 GMT express:router expressInit  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:03 GMT express:router handleWebpackInternalMiddleware  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:03 GMT express:router compression  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:03 GMT express:router trim prefix (/api/puzzles/charitable-donations/state) from url /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:03 GMT express:router bound setHeaders /api/puzzles/charitable-donations/state : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:03 GMT express:router middleware  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:03 GMT express:router handler  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:03 GMT compression gzip compression
+Tue, 21 Oct 2025 21:15:03 GMT express:router dispatching GET /api/puzzles
+Tue, 21 Oct 2025 21:15:03 GMT express:router query  : /api/puzzles
+Tue, 21 Oct 2025 21:15:03 GMT express:router expressInit  : /api/puzzles
+Tue, 21 Oct 2025 21:15:03 GMT express:router handleWebpackInternalMiddleware  : /api/puzzles
+Tue, 21 Oct 2025 21:15:03 GMT express:router compression  : /api/puzzles
+Tue, 21 Oct 2025 21:15:03 GMT express:router trim prefix (/api/puzzles) from url /api/puzzles
+Tue, 21 Oct 2025 21:15:03 GMT express:router bound setHeaders /api/puzzles : /api/puzzles
+Tue, 21 Oct 2025 21:15:03 GMT express:router middleware  : /api/puzzles
+Tue, 21 Oct 2025 21:15:03 GMT express:router handler  : /api/puzzles
+Tue, 21 Oct 2025 21:15:03 GMT compression undefined not compressible
+Tue, 21 Oct 2025 21:15:03 GMT compression no compression: filtered
+ERROR in src/components/LogicGrid/LogicGrid.tsx:132:9
+TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+    130 |         </Paper>
+    131 |       ))}
+  > 132 |       ))}
+        |         ^
+    133 |     </Box>
+    134 |   );
+    135 | };
+
+Compiling...
+2025-10-21T21:15:20.946Z babel:config:loading:files:plugins Loaded plugin '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/react-refresh/babel.js' from '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend'.
+2025-10-21T21:15:20.947Z babel:config:loading:files:plugins Loaded preset '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/babel-preset-react-app/index.js' from '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend'.
+2025-10-21T21:15:21.210Z eslint:file-enumerator Start to iterate files: [ '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/src/components/LogicGrid/LogicGrid.tsx' ]
+2025-10-21T21:15:21.210Z eslint:file-enumerator File: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/src/components/LogicGrid/LogicGrid.tsx
+2025-10-21T21:15:21.211Z eslintrc:cascading-config-array-factory Load config files for /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/src/components/LogicGrid.
+2025-10-21T21:15:21.211Z eslintrc:cascading-config-array-factory No cache found: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/src/components/LogicGrid.
+2025-10-21T21:15:21.211Z eslintrc:config-array-factory Config file not found on /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/src/components/LogicGrid
+2025-10-21T21:15:21.214Z eslintrc:cascading-config-array-factory No cache found: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/src/components.
+2025-10-21T21:15:21.215Z eslintrc:config-array-factory Config file not found on /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/src/components
+2025-10-21T21:15:21.215Z eslintrc:cascading-config-array-factory No cache found: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/src.
+2025-10-21T21:15:21.216Z eslintrc:config-array-factory Config file not found on /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/src
+2025-10-21T21:15:21.216Z eslintrc:cascading-config-array-factory No cache found: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend.
+2025-10-21T21:15:21.216Z eslintrc:config-array-factory Loading package.json config file: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/package.json
+2025-10-21T21:15:21.216Z eslintrc:config-array-factory Loading JSON config file: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/package.json
+2025-10-21T21:15:21.217Z eslintrc:config-array-factory Config file found: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/package.json
+2025-10-21T21:15:21.218Z eslintrc:config-array-factory Loading {extends:"react-app"} relative to /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/package.json
+2025-10-21T21:15:21.219Z eslintrc:config-array-factory Loaded: eslint-config-react-app@7.0.1 (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/index.js)
+2025-10-21T21:15:21.219Z eslintrc:config-array-factory Loading JS config file: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/index.js
+2025-10-21T21:15:21.223Z eslintrc:config-array-factory Loading {extends:"/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/base.js"} relative to /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/index.js
+2025-10-21T21:15:21.224Z eslintrc:config-array-factory package.json was not found: Cannot find module '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/base.js/package.json'
+Require stack:
+- /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/index.js
+2025-10-21T21:15:21.224Z eslintrc:config-array-factory Loaded: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/base.js (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/base.js)
+2025-10-21T21:15:21.224Z eslintrc:config-array-factory Loading JS config file: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/base.js
+2025-10-21T21:15:21.226Z eslintrc:config-array-factory Loading parser "@babel/eslint-parser" from /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/base.js
+2025-10-21T21:15:21.227Z eslintrc:config-array-factory Loaded: @babel/eslint-parser@7.28.4 (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/eslint-parser/lib/index.cjs)
+2025-10-21T21:15:21.227Z eslintrc:config-array-factory Loading plugin "react" from /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/base.js
+2025-10-21T21:15:21.227Z eslintrc:config-array-factory Loaded: eslint-plugin-react@7.37.5 (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-plugin-react/index.js)
+2025-10-21T21:15:21.227Z eslintrc:config-array-factory Plugin /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-plugin-react/index.js loaded in: 0ms
+2025-10-21T21:15:21.228Z eslintrc:config-array-factory Loading plugin "import" from /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/index.js
+2025-10-21T21:15:21.231Z eslintrc:config-array-factory Loaded: eslint-plugin-import@2.32.0 (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-plugin-import/lib/index.js)
+2025-10-21T21:15:21.324Z eslintrc:config-array-factory Plugin /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-plugin-import/lib/index.js loaded in: 93ms
+2025-10-21T21:15:21.324Z eslintrc:config-array-factory Loading plugin "flowtype" from /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/index.js
+2025-10-21T21:15:21.324Z eslintrc:config-array-factory Loaded: eslint-plugin-flowtype@8.0.3 (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-plugin-flowtype/dist/index.js)
+2025-10-21T21:15:21.340Z eslint:rules Loading rule 'no-unused-expressions' (remaining=290)
+2025-10-21T21:15:21.360Z eslintrc:config-array-factory Plugin /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-plugin-flowtype/dist/index.js loaded in: 36ms
+2025-10-21T21:15:21.360Z eslintrc:config-array-factory Loading plugin "jsx-a11y" from /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/index.js
+2025-10-21T21:15:21.361Z eslintrc:config-array-factory Loaded: eslint-plugin-jsx-a11y@6.10.2 (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-plugin-jsx-a11y/lib/index.js)
+2025-10-21T21:15:21.623Z eslintrc:config-array-factory Plugin /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-plugin-jsx-a11y/lib/index.js loaded in: 262ms
+2025-10-21T21:15:21.623Z eslintrc:config-array-factory Loading plugin "react-hooks" from /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/index.js
+2025-10-21T21:15:21.623Z eslintrc:config-array-factory Loaded: eslint-plugin-react-hooks@4.6.2 (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-plugin-react-hooks/index.js)
+2025-10-21T21:15:21.625Z eslintrc:config-array-factory Plugin /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-plugin-react-hooks/index.js loaded in: 2ms
+2025-10-21T21:15:21.625Z eslintrc:config-array-factory Loading parser "@typescript-eslint/parser" from /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/index.js
+2025-10-21T21:15:21.626Z eslintrc:config-array-factory Loaded: @typescript-eslint/parser@5.62.0 (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@typescript-eslint/parser/dist/index.js)
+2025-10-21T21:15:21.786Z eslintrc:config-array-factory Loading plugin "@typescript-eslint" from /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/index.js
+2025-10-21T21:15:21.787Z eslintrc:config-array-factory Loaded: @typescript-eslint/eslint-plugin@5.62.0 (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@typescript-eslint/eslint-plugin/dist/index.js)
+2025-10-21T21:15:21.883Z eslint:rules Loading rule 'block-spacing' (remaining=289)
+2025-10-21T21:15:21.884Z eslint:rules Loading rule 'brace-style' (remaining=288)
+2025-10-21T21:15:21.886Z eslint:rules Loading rule 'comma-dangle' (remaining=287)
+2025-10-21T21:15:21.893Z eslint:rules Loading rule 'dot-notation' (remaining=286)
+2025-10-21T21:15:21.897Z eslint:rules Loading rule 'indent' (remaining=285)
+2025-10-21T21:15:21.899Z eslint:rules Loading rule 'init-declarations' (remaining=284)
+2025-10-21T21:15:21.900Z eslint:rules Loading rule 'key-spacing' (remaining=283)
+2025-10-21T21:15:21.902Z eslint:rules Loading rule 'keyword-spacing' (remaining=282)
+2025-10-21T21:15:21.904Z eslint:rules Loading rule 'lines-around-comment' (remaining=281)
+2025-10-21T21:15:21.905Z eslint:rules Loading rule 'lines-between-class-members' (remaining=280)
+2025-10-21T21:15:21.918Z eslint:rules Loading rule 'no-dupe-class-members' (remaining=279)
+2025-10-21T21:15:21.919Z eslint:rules Loading rule 'no-duplicate-imports' (remaining=278)
+2025-10-21T21:15:21.921Z eslint:rules Loading rule 'no-empty-function' (remaining=277)
+2025-10-21T21:15:21.923Z eslint:rules Loading rule 'no-extra-parens' (remaining=276)
+2025-10-21T21:15:21.925Z eslint:rules Loading rule 'no-extra-semi' (remaining=275)
+2025-10-21T21:15:21.935Z eslint:rules Loading rule 'no-invalid-this' (remaining=274)
+2025-10-21T21:15:21.936Z eslint:rules Loading rule 'no-loop-func' (remaining=273)
+2025-10-21T21:15:21.937Z eslint:rules Loading rule 'no-loss-of-precision' (remaining=272)
+2025-10-21T21:15:21.938Z eslint:rules Loading rule 'no-magic-numbers' (remaining=271)
+2025-10-21T21:15:21.960Z eslint:rules Loading rule 'no-restricted-imports' (remaining=270)
+2025-10-21T21:15:22.003Z eslint:rules Loading rule 'no-useless-constructor' (remaining=269)
+2025-10-21T21:15:22.007Z eslint:rules Loading rule 'object-curly-spacing' (remaining=268)
+2025-10-21T21:15:22.034Z eslint:rules Loading rule 'quotes' (remaining=267)
+2025-10-21T21:15:22.043Z eslint:rules Loading rule 'semi' (remaining=266)
+2025-10-21T21:15:22.045Z eslint:rules Loading rule 'space-before-blocks' (remaining=265)
+2025-10-21T21:15:22.051Z eslint:rules Loading rule 'space-infix-ops' (remaining=264)
+2025-10-21T21:15:22.062Z eslintrc:config-array-factory Plugin /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@typescript-eslint/eslint-plugin/dist/index.js loaded in: 275ms
+2025-10-21T21:15:22.062Z eslintrc:config-array-factory Loading {extends:"react-app/jest"} relative to /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/package.json
+2025-10-21T21:15:22.063Z eslintrc:config-array-factory package.json was not found: Cannot find module 'eslint-config-react-app/jest/package.json'
+Require stack:
+- /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/package.json
+2025-10-21T21:15:22.063Z eslintrc:config-array-factory Loaded: eslint-config-react-app/jest (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/jest.js)
+2025-10-21T21:15:22.063Z eslintrc:config-array-factory Loading JS config file: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/jest.js
+2025-10-21T21:15:22.063Z eslintrc:config-array-factory Loading plugin "jest" from /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/jest.js
+2025-10-21T21:15:22.064Z eslintrc:config-array-factory Loaded: eslint-plugin-jest@25.7.0 (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-plugin-jest/lib/index.js)
+2025-10-21T21:15:22.085Z eslintrc:config-array-factory Plugin /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-plugin-jest/lib/index.js loaded in: 21ms
+2025-10-21T21:15:22.085Z eslintrc:config-array-factory Loading plugin "testing-library" from /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/jest.js
+2025-10-21T21:15:22.085Z eslintrc:config-array-factory Loaded: eslint-plugin-testing-library@5.11.1 (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-plugin-testing-library/index.js)
+2025-10-21T21:15:22.102Z eslintrc:config-array-factory Plugin /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-plugin-testing-library/index.js loaded in: 17ms
+2025-10-21T21:15:22.103Z eslintrc:cascading-config-array-factory Stop traversing because of 'root:true'.
+2025-10-21T21:15:22.105Z eslint:rules Loading rule 'array-callback-return' (remaining=263)
+2025-10-21T21:15:22.106Z eslint:rules Loading rule 'default-case' (remaining=262)
+2025-10-21T21:15:22.107Z eslint:rules Loading rule 'dot-location' (remaining=261)
+2025-10-21T21:15:22.108Z eslint:rules Loading rule 'eqeqeq' (remaining=260)
+2025-10-21T21:15:22.109Z eslint:rules Loading rule 'new-parens' (remaining=259)
+2025-10-21T21:15:22.110Z eslint:rules Loading rule 'no-array-constructor' (remaining=258)
+2025-10-21T21:15:22.110Z eslint:rules Loading rule 'no-caller' (remaining=257)
+2025-10-21T21:15:22.111Z eslint:rules Loading rule 'no-cond-assign' (remaining=256)
+2025-10-21T21:15:22.111Z eslint:rules Loading rule 'no-const-assign' (remaining=255)
+2025-10-21T21:15:22.112Z eslint:rules Loading rule 'no-control-regex' (remaining=254)
+2025-10-21T21:15:22.113Z eslint:rules Loading rule 'no-delete-var' (remaining=253)
+2025-10-21T21:15:22.113Z eslint:rules Loading rule 'no-dupe-args' (remaining=252)
+2025-10-21T21:15:22.113Z eslint:rules Loading rule 'no-dupe-keys' (remaining=251)
+2025-10-21T21:15:22.114Z eslint:rules Loading rule 'no-duplicate-case' (remaining=250)
+2025-10-21T21:15:22.114Z eslint:rules Loading rule 'no-empty-character-class' (remaining=249)
+2025-10-21T21:15:22.114Z eslint:rules Loading rule 'no-empty-pattern' (remaining=248)
+2025-10-21T21:15:22.115Z eslint:rules Loading rule 'no-eval' (remaining=247)
+2025-10-21T21:15:22.116Z eslint:rules Loading rule 'no-ex-assign' (remaining=246)
+2025-10-21T21:15:22.116Z eslint:rules Loading rule 'no-extend-native' (remaining=245)
+2025-10-21T21:15:22.118Z eslint:rules Loading rule 'no-extra-bind' (remaining=244)
+2025-10-21T21:15:22.118Z eslint:rules Loading rule 'no-extra-label' (remaining=243)
+2025-10-21T21:15:22.119Z eslint:rules Loading rule 'no-fallthrough' (remaining=242)
+2025-10-21T21:15:22.120Z eslint:rules Loading rule 'no-func-assign' (remaining=241)
+2025-10-21T21:15:22.120Z eslint:rules Loading rule 'no-implied-eval' (remaining=240)
+2025-10-21T21:15:22.121Z eslint:rules Loading rule 'no-invalid-regexp' (remaining=239)
+2025-10-21T21:15:22.122Z eslint:rules Loading rule 'no-iterator' (remaining=238)
+2025-10-21T21:15:22.122Z eslint:rules Loading rule 'no-label-var' (remaining=237)
+2025-10-21T21:15:22.123Z eslint:rules Loading rule 'no-labels' (remaining=236)
+2025-10-21T21:15:22.124Z eslint:rules Loading rule 'no-lone-blocks' (remaining=235)
+2025-10-21T21:15:22.124Z eslint:rules Loading rule 'no-mixed-operators' (remaining=234)
+2025-10-21T21:15:22.126Z eslint:rules Loading rule 'no-multi-str' (remaining=233)
+2025-10-21T21:15:22.126Z eslint:rules Loading rule 'no-global-assign' (remaining=232)
+2025-10-21T21:15:22.127Z eslint:rules Loading rule 'no-unsafe-negation' (remaining=231)
+2025-10-21T21:15:22.127Z eslint:rules Loading rule 'no-new-func' (remaining=230)
+2025-10-21T21:15:22.128Z eslint:rules Loading rule 'no-new-object' (remaining=229)
+2025-10-21T21:15:22.128Z eslint:rules Loading rule 'no-new-symbol' (remaining=228)
+2025-10-21T21:15:22.128Z eslint:rules Loading rule 'no-new-wrappers' (remaining=227)
+2025-10-21T21:15:22.129Z eslint:rules Loading rule 'no-obj-calls' (remaining=226)
+2025-10-21T21:15:22.129Z eslint:rules Loading rule 'no-octal' (remaining=225)
+2025-10-21T21:15:22.130Z eslint:rules Loading rule 'no-octal-escape' (remaining=224)
+2025-10-21T21:15:22.130Z eslint:rules Loading rule 'no-redeclare' (remaining=223)
+2025-10-21T21:15:22.131Z eslint:rules Loading rule 'no-regex-spaces' (remaining=222)
+2025-10-21T21:15:22.132Z eslint:rules Loading rule 'no-restricted-syntax' (remaining=221)
+2025-10-21T21:15:22.133Z eslint:rules Loading rule 'no-script-url' (remaining=220)
+2025-10-21T21:15:22.133Z eslint:rules Loading rule 'no-self-assign' (remaining=219)
+2025-10-21T21:15:22.134Z eslint:rules Loading rule 'no-self-compare' (remaining=218)
+2025-10-21T21:15:22.134Z eslint:rules Loading rule 'no-sequences' (remaining=217)
+2025-10-21T21:15:22.135Z eslint:rules Loading rule 'no-shadow-restricted-names' (remaining=216)
+2025-10-21T21:15:22.135Z eslint:rules Loading rule 'no-sparse-arrays' (remaining=215)
+2025-10-21T21:15:22.135Z eslint:rules Loading rule 'no-template-curly-in-string' (remaining=214)
+2025-10-21T21:15:22.136Z eslint:rules Loading rule 'no-this-before-super' (remaining=213)
+2025-10-21T21:15:22.136Z eslint:rules Loading rule 'no-throw-literal' (remaining=212)
+2025-10-21T21:15:22.137Z eslint:rules Loading rule 'no-undef' (remaining=211)
+2025-10-21T21:15:22.138Z eslint:rules Loading rule 'no-restricted-globals' (remaining=210)
+2025-10-21T21:15:22.139Z eslint:rules Loading rule 'no-unreachable' (remaining=209)
+2025-10-21T21:15:22.141Z eslint:rules Loading rule 'no-unused-labels' (remaining=208)
+2025-10-21T21:15:22.141Z eslint:rules Loading rule 'no-unused-vars' (remaining=207)
+2025-10-21T21:15:22.143Z eslint:rules Loading rule 'no-use-before-define' (remaining=206)
+2025-10-21T21:15:22.144Z eslint:rules Loading rule 'no-useless-computed-key' (remaining=205)
+2025-10-21T21:15:22.145Z eslint:rules Loading rule 'no-useless-concat' (remaining=204)
+2025-10-21T21:15:22.145Z eslint:rules Loading rule 'no-useless-escape' (remaining=203)
+2025-10-21T21:15:22.146Z eslint:rules Loading rule 'no-useless-rename' (remaining=202)
+2025-10-21T21:15:22.147Z eslint:rules Loading rule 'no-with' (remaining=201)
+2025-10-21T21:15:22.148Z eslint:rules Loading rule 'no-whitespace-before-property' (remaining=200)
+2025-10-21T21:15:22.149Z eslint:rules Loading rule 'require-yield' (remaining=199)
+2025-10-21T21:15:22.149Z eslint:rules Loading rule 'rest-spread-spacing' (remaining=198)
+2025-10-21T21:15:22.149Z eslint:rules Loading rule 'strict' (remaining=197)
+2025-10-21T21:15:22.150Z eslint:rules Loading rule 'unicode-bom' (remaining=196)
+2025-10-21T21:15:22.150Z eslint:rules Loading rule 'use-isnan' (remaining=195)
+2025-10-21T21:15:22.151Z eslint:rules Loading rule 'valid-typeof' (remaining=194)
+2025-10-21T21:15:22.155Z eslint:rules Loading rule 'no-restricted-properties' (remaining=193)
+2025-10-21T21:15:22.157Z eslint:rules Loading rule 'getter-return' (remaining=192)
+2025-10-21T21:15:22.179Z eslintrc:cascading-config-array-factory Configuration was determined: ConfigArray(10) [ { type: 'config', name: 'DefaultIgnorePattern', filePath: '', criteria: null, env: undefined, globals: undefined, ignorePattern: IgnorePattern { patterns: [Array], basePath: '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend', loose: false }, noInlineConfig: undefined, parser: undefined, parserOptions: undefined, plugins: undefined, processor: undefined, reportUnusedDisableDirectives: undefined, root: undefined, rules: undefined, settings: undefined }, { type: 'config', name: 'BaseConfig » /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/base.js', filePath: '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/base.js', criteria: null, env: { browser: true, commonjs: true, es6: true, jest: true, node: true }, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: { error: null, filePath: '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/eslint-parser/lib/index.cjs', id: '@babel/eslint-parser', importerName: 'BaseConfig » /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/base.js', importerPath: '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/base.js' }, parserOptions: { sourceType: 'module', requireConfigFile: false, babelOptions: [Object] }, plugins: { react: [Object] }, processor: undefined, reportUnusedDisableDirectives: undefined, root: true, rules: { 'react/jsx-uses-vars': 'warn', 'react/jsx-uses-react': 'warn' }, settings: { react: [Object] } }, { type: 'config', name: 'BaseConfig', filePath: '', criteria: null, env: undefined, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: undefined, parserOptions: undefined, plugins: undefined, processor: undefined, reportUnusedDisableDirectives: undefined, root: undefined, rules: {}, settings: undefined }, { type: 'config', name: 'package.json » eslint-config-react-app » /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/base.js', filePath: '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/base.js', criteria: null, env: { browser: true, commonjs: true, es6: true, jest: true, node: true }, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: { error: null, filePath: '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/eslint-parser/lib/index.cjs', id: '@babel/eslint-parser', importerName: 'package.json » eslint-config-react-app » /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/base.js', importerPath: '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/base.js' }, parserOptions: { sourceType: 'module', requireConfigFile: false, babelOptions: [Object] }, plugins: { react: [Object] }, processor: undefined, reportUnusedDisableDirectives: undefined, root: true, rules: { 'react/jsx-uses-vars': 'warn', 'react/jsx-uses-react': 'warn' }, settings: { react: [Object] } }, { type: 'config', name: 'package.json » eslint-config-react-app', filePath: '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/index.js', criteria: null, env: undefined, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: undefined, parserOptions: undefined, plugins: { import: [Object], flowtype: [Object], 'jsx-a11y': [Object], 'react-hooks': [Object] }, processor: undefined, reportUnusedDisableDirectives: undefined, root: undefined, rules: { 'array-callback-return': 'warn', 'default-case': [Array], 'dot-location': [Array], eqeqeq: [Array], 'new-parens': 'warn', 'no-array-constructor': 'warn', 'no-caller': 'warn', 'no-cond-assign': [Array], 'no-const-assign': 'warn', 'no-control-regex': 'warn', 'no-delete-var': 'warn', 'no-dupe-args': 'warn', 'no-dupe-class-members': 'warn', 'no-dupe-keys': 'warn', 'no-duplicate-case': 'warn', 'no-empty-character-class': 'warn', 'no-empty-pattern': 'warn', 'no-eval': 'warn', 'no-ex-assign': 'warn', 'no-extend-native': 'warn', 'no-extra-bind': 'warn', 'no-extra-label': 'warn', 'no-fallthrough': 'warn', 'no-func-assign': 'warn', 'no-implied-eval': 'warn', 'no-invalid-regexp': 'warn', 'no-iterator': 'warn', 'no-label-var': 'warn', 'no-labels': [Array], 'no-lone-blocks': 'warn', 'no-loop-func': 'warn', 'no-mixed-operators': [Array], 'no-multi-str': 'warn', 'no-global-assign': 'warn', 'no-unsafe-negation': 'warn', 'no-new-func': 'warn', 'no-new-object': 'warn', 'no-new-symbol': 'warn', 'no-new-wrappers': 'warn', 'no-obj-calls': 'warn', 'no-octal': 'warn', 'no-octal-escape': 'warn', 'no-redeclare': 'warn', 'no-regex-spaces': 'warn', 'no-restricted-syntax': [Array], 'no-script-url': 'warn', 'no-self-assign': 'warn', 'no-self-compare': 'warn', 'no-sequences': 'warn', 'no-shadow-restricted-names': 'warn', 'no-sparse-arrays': 'warn', 'no-template-curly-in-string': 'warn', 'no-this-before-super': 'warn', 'no-throw-literal': 'warn', 'no-undef': 'error', 'no-restricted-globals': [Array], 'no-unreachable': 'warn', 'no-unused-expressions': [Array], 'no-unused-labels': 'warn', 'no-unused-vars': [Array], 'no-use-before-define': [Array], 'no-useless-computed-key': 'warn', 'no-useless-concat': 'warn', 'no-useless-constructor': 'warn', 'no-useless-escape': 'warn', 'no-useless-rename': [Array], 'no-with': 'warn', 'no-whitespace-before-property': 'warn', 'react-hooks/exhaustive-deps': 'warn', 'require-yield': 'warn', 'rest-spread-spacing': [Array], strict: [Array], 'unicode-bom': [Array], 'use-isnan': 'warn', 'valid-typeof': 'warn', 'no-restricted-properties': [Array], 'getter-return': 'warn', 'import/first': 'error', 'import/no-amd': 'error', 'import/no-anonymous-default-export': 'warn', 'import/no-webpack-loader-syntax': 'error', 'react/forbid-foreign-prop-types': [Array], 'react/jsx-no-comment-textnodes': 'warn', 'react/jsx-no-duplicate-props': 'warn', 'react/jsx-no-target-blank': 'warn', 'react/jsx-no-undef': 'error', 'react/jsx-pascal-case': [Array], 'react/no-danger-with-children': 'warn', 'react/no-direct-mutation-state': 'warn', 'react/no-is-mounted': 'warn', 'react/no-typos': 'error', 'react/require-render-return': 'error', 'react/style-prop-object': 'warn', 'jsx-a11y/alt-text': 'warn', 'jsx-a11y/anchor-has-content': 'warn', 'jsx-a11y/anchor-is-valid': [Array], 'jsx-a11y/aria-activedescendant-has-tabindex': 'warn', 'jsx-a11y/aria-props': 'warn', 'jsx-a11y/aria-proptypes': 'warn', 'jsx-a11y/aria-role': [Array], 'jsx-a11y/aria-unsupported-elements': 'warn', 'jsx-a11y/heading-has-content': 'warn', 'jsx-a11y/iframe-has-title': 'warn', 'jsx-a11y/img-redundant-alt': 'warn', 'jsx-a11y/no-access-key': 'warn', 'jsx-a11y/no-distracting-elements': 'warn', 'jsx-a11y/no-redundant-roles': 'warn', 'jsx-a11y/role-has-required-aria-props': 'warn', 'jsx-a11y/role-supports-aria-props': 'warn', 'jsx-a11y/scope': 'warn', 'react-hooks/rules-of-hooks': 'error', 'flowtype/define-flow-type': 'warn', 'flowtype/require-valid-file-annotation': 'warn', 'flowtype/use-flow-type': 'warn' }, settings: undefined }, { type: 'config', name: 'package.json » eslint-config-react-app#overrides[0]', filePath: '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/index.js', criteria: { includes: [Array], excludes: null, basePath: '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend' }, env: undefined, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: { error: null, filePath: '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@typescript-eslint/parser/dist/index.js', id: '@typescript-eslint/parser', importerName: 'package.json » eslint-config-react-app#overrides[0]', importerPath: '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/index.js' }, parserOptions: { ecmaVersion: 2018, sourceType: 'module', ecmaFeatures: [Object], warnOnUnsupportedTypeScriptVersion: true }, plugins: { '@typescript-eslint': [Object] }, processor: undefined, reportUnusedDisableDirectives: undefined, root: undefined, rules: { 'default-case': 'off', 'no-dupe-class-members': 'off', 'no-undef': 'off', '@typescript-eslint/consistent-type-assertions': 'warn', 'no-array-constructor': 'off', '@typescript-eslint/no-array-constructor': 'warn', 'no-redeclare': 'off', '@typescript-eslint/no-redeclare': 'warn', 'no-use-before-define': 'off', '@typescript-eslint/no-use-before-define': [Array], 'no-unused-expressions': 'off', '@typescript-eslint/no-unused-expressions': [Array], 'no-unused-vars': 'off', '@typescript-eslint/no-unused-vars': [Array], 'no-useless-constructor': 'off', '@typescript-eslint/no-useless-constructor': 'warn' }, settings: undefined }, { type: 'implicit-processor', name: 'package.json » eslint-config-react-app/jest#processors["jest/.snap"]', filePath: '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/jest.js', criteria: { includes: [Array], excludes: null, basePath: '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend' }, env: undefined, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: undefined, parserOptions: undefined, plugins: undefined, processor: 'jest/.snap', reportUnusedDisableDirectives: undefined, root: undefined, rules: undefined, settings: undefined }, { type: 'config', name: 'package.json » eslint-config-react-app/jest', filePath: '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/jest.js', criteria: null, env: undefined, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: undefined, parserOptions: undefined, plugins: { jest: [Object], 'testing-library': [Object] }, processor: undefined, reportUnusedDisableDirectives: undefined, root: undefined, rules: undefined, settings: undefined }, { type: 'config', name: 'package.json » eslint-config-react-app/jest#overrides[0]', filePath: '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-config-react-app/jest.js', criteria: { includes: [Array], excludes: null, basePath: '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend' }, env: { 'jest/globals': true }, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: undefined, parserOptions: undefined, plugins: undefined, processor: undefined, reportUnusedDisableDirectives: undefined, root: undefined, rules: { 'jest/no-conditional-expect': 'error', 'jest/no-identical-title': 'error', 'jest/no-interpolation-in-snapshots': 'error', 'jest/no-jasmine-globals': 'error', 'jest/no-jest-import': 'error', 'jest/no-mocks-import': 'error', 'jest/valid-describe-callback': 'error', 'jest/valid-expect': 'error', 'jest/valid-expect-in-promise': 'error', 'jest/valid-title': 'warn', 'testing-library/await-async-query': 'error', 'testing-library/await-async-utils': 'error', 'testing-library/no-await-sync-query': 'error', 'testing-library/no-container': 'error', 'testing-library/no-debugging-utils': 'error', 'testing-library/no-dom-import': [Array], 'testing-library/no-node-access': 'error', 'testing-library/no-promise-in-fire-event': 'error', 'testing-library/no-render-in-setup': 'error', 'testing-library/no-unnecessary-act': 'error', 'testing-library/no-wait-for-empty-callback': 'error', 'testing-library/no-wait-for-multiple-assertions': 'error', 'testing-library/no-wait-for-side-effects': 'error', 'testing-library/no-wait-for-snapshot': 'error', 'testing-library/prefer-find-by': 'error', 'testing-library/prefer-presence-queries': 'error', 'testing-library/prefer-query-by-disappearance': 'error', 'testing-library/prefer-screen-queries': 'error', 'testing-library/render-result-naming-convention': 'error' }, settings: undefined }, { type: 'config', name: 'package.json', filePath: '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/package.json', criteria: null, env: undefined, globals: undefined, ignorePattern: undefined, noInlineConfig: undefined, parser: undefined, parserOptions: undefined, plugins: undefined, processor: undefined, reportUnusedDisableDirectives: undefined, root: undefined, rules: undefined, settings: undefined } ] on /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/src/components/LogicGrid
+2025-10-21T21:15:22.181Z eslintrc:ignore-pattern Create with: [ IgnorePattern { patterns: [ '/**/node_modules/*' ], basePath: '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend', loose: false } ]
+2025-10-21T21:15:22.181Z eslintrc:ignore-pattern   processed: { basePath: '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend', patterns: [ '/**/node_modules/*' ] }
+2025-10-21T21:15:22.182Z eslintrc:ignore-pattern Check {
+  filePath: '/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/src/components/LogicGrid/LogicGrid.tsx',
+  dot: false,
+  relativePath: 'src/components/LogicGrid/LogicGrid.tsx',
+  result: false
+}
+2025-10-21T21:15:22.184Z eslint:lint-result-cache Cache entry not found or no longer valid: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/src/components/LogicGrid/LogicGrid.tsx
+2025-10-21T21:15:22.184Z eslint:cli-engine Lint /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/src/components/LogicGrid/LogicGrid.tsx
+2025-10-21T21:15:22.184Z eslint:linter Linting code for /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/src/components/LogicGrid/LogicGrid.tsx (pass 1)
+2025-10-21T21:15:22.185Z eslint:linter Verify
+2025-10-21T21:15:22.185Z eslint:linter With ConfigArray: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/src/components/LogicGrid/LogicGrid.tsx
+2025-10-21T21:15:22.187Z eslint:linter Parsing: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/src/components/LogicGrid/LogicGrid.tsx
+2025-10-21T21:15:22.188Z typescript-eslint:typescript-estree:createIsolatedProgram Getting isolated program in TSX mode for: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/src/components/LogicGrid/LogicGrid.tsx
+2025-10-21T21:15:22.219Z eslint:linter Parsing error: ')' expected.
+TSError: ')' expected.
+    at createError (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@typescript-eslint/typescript-estree/dist/node-utils.js:539:12)
+    at convertError (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@typescript-eslint/typescript-estree/dist/convert.js:41:41)
+    at astConverter (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@typescript-eslint/typescript-estree/dist/ast-converter.js:15:42)
+    at parseAndGenerateServices (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@typescript-eslint/typescript-estree/dist/parser.js:148:66)
+    at Object.parseForESLint (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@typescript-eslint/parser/dist/parser.js:94:80)
+    at parse (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint/lib/linter/linter.js:834:22)
+    at Linter._verifyWithoutProcessors (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint/lib/linter/linter.js:1311:33)
+    at Linter._verifyWithConfigArray (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint/lib/linter/linter.js:1807:21)
+    at Linter.verify (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint/lib/linter/linter.js:1437:65)
+    at Linter.verifyAndFix (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint/lib/linter/linter.js:2068:29)
+    at verifyText (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint/lib/cli-engine/cli-engine.js:254:48)
+    at CLIEngine.executeOnFiles (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint/lib/cli-engine/cli-engine.js:834:28)
+    at ESLint.lintFiles (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint/lib/eslint/eslint.js:551:23)
+    at lintFiles (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-webpack-plugin/dist/getESLint.js:57:36)
+    at lint (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-webpack-plugin/dist/linter.js:91:21)
+    at /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/eslint-webpack-plugin/dist/index.js:139:11
+    at _next2 (eval at create (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:10:1)
+    at eval (eval at create (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:42:1)
+    at /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/webpack/lib/FlagDependencyExportsPlugin.js:404:10
+    at /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/neo-async/async.js:2830:7
+    at Object.each (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/neo-async/async.js:2850:39)
+    at /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/webpack/lib/FlagDependencyExportsPlugin.js:374:17
+    at /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/neo-async/async.js:2830:7
+    at Object.each (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/neo-async/async.js:2850:39)
+    at /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/webpack/lib/FlagDependencyExportsPlugin.js:52:15
+    at Hook.eval [as callAsync] (eval at create (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/tapable/lib/HookCodeFactory.js:31:10), <anonymous>:38:1)
+    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/tapable/lib/Hook.js:21:14)
+    at Compilation.finish (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/webpack/lib/Compilation.js:3056:28)
+    at /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/webpack/lib/Compiler.js:1364:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2025-10-21T21:15:22.219Z eslint:linter Generating fixed text for /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/src/components/LogicGrid/LogicGrid.tsx (pass 1)
+2025-10-21T21:15:22.219Z eslint:source-code-fixer Applying fixes
+2025-10-21T21:15:22.219Z eslint:source-code-fixer shouldFix parameter was false, not attempting fixes
+2025-10-21T21:15:22.220Z eslint:lint-result-cache Updating cached result: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/src/components/LogicGrid/LogicGrid.tsx
+2025-10-21T21:15:22.220Z eslint:file-enumerator Complete iterating files: ["/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/src/components/LogicGrid/LogicGrid.tsx"]
+2025-10-21T21:15:22.220Z eslint:lint-result-cache Persisting cached results: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/.cache/.eslintcache
+2025-10-21T21:15:22.221Z eslint:cli-engine Linting complete in: 1027ms
+2025-10-21T21:15:22.358Z eslintrc:cascading-config-array-factory Load config files for /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/src/components/LogicGrid.
+2025-10-21T21:15:22.358Z eslintrc:cascading-config-array-factory Cache hit: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/src/components/LogicGrid.
+Failed to compile.
+
+[eslint] 
+src/components/LogicGrid/LogicGrid.tsx
+Syntax error: ')' expected (133:4)
+ERROR in ./src/components/LogicGrid/LogicGrid.tsx
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/src/components/LogicGrid/LogicGrid.tsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (133:4)
+
+  131 |       ))}
+  132 |     </Box>
+> 133 |     </Box>
+      |     ^
+  134 |   );
+  135 | };
+    at constructor (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+    at TypeScriptParserMixin.raise (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:6630:19)
+    at TypeScriptParserMixin.jsxParseElementAt (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:4775:18)
+    at TypeScriptParserMixin.jsxParseElement (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:4782:17)
+    at TypeScriptParserMixin.parseExprAtom (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:4792:19)
+    at TypeScriptParserMixin.parseExprSubscripts (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+    at TypeScriptParserMixin.parseUpdate (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:9857:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+    at TypeScriptParserMixin.parseExprOps (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:10908:23)
+    at TypeScriptParserMixin.parseMaybeConditional (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+    at /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:9795:39
+    at TypeScriptParserMixin.tryParse (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:6938:20)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:9795:18)
+    at /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:10804:39
+    at TypeScriptParserMixin.allowInAnd (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:12436:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:10804:17)
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:12503:17)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:11683:28)
+    at TypeScriptParserMixin.parseExprAtom (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:11335:23)
+    at TypeScriptParserMixin.parseExprAtom (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+    at TypeScriptParserMixin.parseExprSubscripts (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+    at TypeScriptParserMixin.parseUpdate (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:11070:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:11050:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:9857:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:10903:61)
+    at TypeScriptParserMixin.parseExprOps (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:10908:23)
+    at TypeScriptParserMixin.parseMaybeConditional (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:10885:23)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:10835:21)
+    at TypeScriptParserMixin.parseMaybeAssign (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:9806:20)
+    at TypeScriptParserMixin.parseExpressionBase (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:10788:23)
+    at /Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:10784:39
+    at TypeScriptParserMixin.allowInAnd (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:12431:16)
+    at TypeScriptParserMixin.parseExpression (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:10784:17)
+    at TypeScriptParserMixin.parseReturnStatement (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:13151:28)
+    at TypeScriptParserMixin.parseStatementContent (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:12807:21)
+    at TypeScriptParserMixin.parseStatementContent (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:9532:18)
+    at TypeScriptParserMixin.parseStatementLike (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:12776:17)
+    at TypeScriptParserMixin.parseStatementListItem (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:12756:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:13325:61)
+    at TypeScriptParserMixin.parseBlockBody (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:13318:10)
+    at TypeScriptParserMixin.parseBlock (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:13306:10)
+    at TypeScriptParserMixin.parseFunctionBody (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:12110:24)
+    at TypeScriptParserMixin.parseArrowExpression (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:12085:10)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:11695:12)
+    at TypeScriptParserMixin.parseExprAtom (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:11335:23)
+    at TypeScriptParserMixin.parseExprAtom (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:4797:20)
+    at TypeScriptParserMixin.parseExprSubscripts (/Users/ruadhri/src/logic-grid-puzzle-nidc-workshop/frontend/node_modules/@babel/parser/lib/index.js:11085:23)
+
+ERROR in [eslint] 
+src/components/LogicGrid/LogicGrid.tsx
+  Line 133:4:  Parsing error: ')' expected
+
+webpack compiled with 2 errors
+ERROR in src/components/LogicGrid/LogicGrid.tsx:133:5
+TS1005: ')' expected.
+    131 |       ))}
+    132 |     </Box>
+  > 133 |     </Box>
+        |     ^^
+    134 |   );
+    135 | };
+
+ERROR in src/components/LogicGrid/LogicGrid.tsx:134:3
+TS1109: Expression expected.
+    132 |     </Box>
+    133 |     </Box>
+  > 134 |   );
+        |   ^
+    135 | };
+
+ERROR in src/components/LogicGrid/LogicGrid.tsx:135:1
+TS1128: Declaration or statement expected.
+    133 |     </Box>
+    134 |   );
+  > 135 | };
+        | ^
+
+Tue, 21 Oct 2025 21:15:44 GMT express:router dispatching GET /api/puzzles
+Tue, 21 Oct 2025 21:15:44 GMT express:router query  : /api/puzzles
+Tue, 21 Oct 2025 21:15:44 GMT express:router expressInit  : /api/puzzles
+Tue, 21 Oct 2025 21:15:44 GMT express:router handleWebpackInternalMiddleware  : /api/puzzles
+Tue, 21 Oct 2025 21:15:44 GMT express:router compression  : /api/puzzles
+Tue, 21 Oct 2025 21:15:44 GMT express:router trim prefix (/api/puzzles) from url /api/puzzles
+Tue, 21 Oct 2025 21:15:44 GMT express:router bound setHeaders /api/puzzles : /api/puzzles
+Tue, 21 Oct 2025 21:15:44 GMT express:router middleware  : /api/puzzles
+Tue, 21 Oct 2025 21:15:44 GMT express:router handler  : /api/puzzles
+Tue, 21 Oct 2025 21:15:44 GMT express:router dispatching GET /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:44 GMT express:router query  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:44 GMT express:router expressInit  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:44 GMT express:router handleWebpackInternalMiddleware  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:44 GMT express:router compression  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:44 GMT express:router trim prefix (/api/puzzles/charitable-donations/state) from url /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:44 GMT express:router bound setHeaders /api/puzzles/charitable-donations/state : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:44 GMT express:router middleware  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:44 GMT express:router handler  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:15:44 GMT compression undefined not compressible
+Tue, 21 Oct 2025 21:15:44 GMT compression no compression: filtered
+Tue, 21 Oct 2025 21:15:44 GMT compression gzip compression
+Tue, 21 Oct 2025 21:16:13 GMT express:router dispatching GET /api/puzzles
+Tue, 21 Oct 2025 21:16:13 GMT express:router query  : /api/puzzles
+Tue, 21 Oct 2025 21:16:13 GMT express:router expressInit  : /api/puzzles
+Tue, 21 Oct 2025 21:16:13 GMT express:router handleWebpackInternalMiddleware  : /api/puzzles
+Tue, 21 Oct 2025 21:16:13 GMT express:router compression  : /api/puzzles
+Tue, 21 Oct 2025 21:16:13 GMT express:router trim prefix (/api/puzzles) from url /api/puzzles
+Tue, 21 Oct 2025 21:16:13 GMT express:router bound setHeaders /api/puzzles : /api/puzzles
+Tue, 21 Oct 2025 21:16:13 GMT express:router middleware  : /api/puzzles
+Tue, 21 Oct 2025 21:16:13 GMT express:router handler  : /api/puzzles
+Tue, 21 Oct 2025 21:16:13 GMT express:router dispatching GET /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:16:13 GMT express:router query  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:16:13 GMT express:router expressInit  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:16:13 GMT express:router handleWebpackInternalMiddleware  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:16:13 GMT express:router compression  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:16:13 GMT express:router trim prefix (/api/puzzles/charitable-donations/state) from url /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:16:13 GMT express:router bound setHeaders /api/puzzles/charitable-donations/state : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:16:13 GMT express:router middleware  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:16:13 GMT express:router handler  : /api/puzzles/charitable-donations/state
+Tue, 21 Oct 2025 21:16:13 GMT compression undefined not compressible
+Tue, 21 Oct 2025 21:16:13 GMT compression no compression: filtered
+Tue, 21 Oct 2025 21:16:13 GMT compression undefined not compressible
+Tue, 21 Oct 2025 21:16:13 GMT compression no compression: filtered
