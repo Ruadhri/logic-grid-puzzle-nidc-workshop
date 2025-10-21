@@ -215,17 +215,20 @@ function listAvailablePuzzles(req, res) {
   res.json(puzzles);
 }
 
+const resetState = () => {
+  store.puzzleStates = new Map();
+};
+
 module.exports = {
   createPuzzle,
-  listPuzzles: listAvailablePuzzles,
   getPuzzle,
   createState,
   getState,
   applyMarking: applyMarkingToState,
   undoMarking,
   validateState,
-  puzzles: store.puzzles,
-  puzzleStates: store.puzzleStates,
-  getPuzzleData,
+  resetState,
+  listAvailablePuzzles,
+  // Added for testing
   storePuzzle
 };
