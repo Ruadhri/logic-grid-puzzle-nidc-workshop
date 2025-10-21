@@ -1,13 +1,20 @@
 export interface Cell {
-  categoryA: string;
-  optionA: string;
-  categoryB: string;
-  optionB: string;
+  categoryA: string;      // Category ID
+  categoryAName: string;  // Category display name
+  optionA: string;       // Option ID
+  optionALabel: string;  // Option display name
+  categoryB: string;      // Category ID
+  categoryBName: string;  // Category display name
+  optionB: string;       // Option ID
+  optionBLabel: string;  // Option display name
   state: 'unknown' | 'confirmed' | 'eliminated';
 }
 
 export interface Puzzle {
   id: string;
+  title: string;
+  author: string;
+  createdAt: string;
   categories: {
     id: string;
     name: string;
@@ -16,12 +23,27 @@ export interface Puzzle {
       label: string;
     }[];
   }[];
-  clues: any[]; // Will be defined later
+  clues: {
+    type: string;
+    description: string;
+  }[];
+}
+
+export interface PuzzleListItem {
+  id: string;
+  title: string;
+  author: string;
+  createdAt: string;
 }
 
 export interface PuzzleState {
   puzzleId: string;
+  title: string;
   cells: Cell[];
+  clues: {
+    type: string;
+    description: string;
+  }[];
   history: {
     previousState: {
       cells: Cell[];
