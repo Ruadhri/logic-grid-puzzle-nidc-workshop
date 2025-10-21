@@ -5,6 +5,7 @@ function setupPuzzleRoutes(app) {
   const router = Router();
 
   // Puzzle Management
+  router.get('/puzzles', puzzleController.listPuzzles);
   router.post('/puzzles', puzzleController.createPuzzle);
   router.get('/puzzles/:id', puzzleController.getPuzzle);
   
