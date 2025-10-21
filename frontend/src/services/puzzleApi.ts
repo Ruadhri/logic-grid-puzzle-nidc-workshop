@@ -1,10 +1,15 @@
 import axios from 'axios';
-import { Puzzle, PuzzleState } from '../types/puzzle';
+import { Puzzle, PuzzleState, PuzzleListItem } from '../types/puzzle';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:3000/api';
+const API_BASE_URL = process.env.REACT_APP_API_URL || '/api';
 
 export const puzzleApi = {
   // Puzzle Management
+  listPuzzles: async (): Promise<PuzzleListItem[]> => {
+    const response = await axios.get(`${API_BASE_URL}/puzzles`);
+    return response.data;
+  },
+
   createPuzzle: async (puzzle: Puzzle): Promise<{ id: string }> => {
     const response = await axios.post(`${API_BASE_URL}/puzzles`, puzzle);
     return response.data;
