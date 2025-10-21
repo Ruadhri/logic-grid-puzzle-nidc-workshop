@@ -1,0 +1,56 @@
+{
+  "id": "sample1",
+  "title": "Pet Store Mystery",
+  "author": "Logic Grid Workshop",
+  "createdAt": "2025-10-21T00:00:00Z",
+  "updatedAt": "2025-10-21T00:00:00Z",
+  "categories": [
+    {
+      "id": "person",
+      "name": "Person",
+      "options": [
+        { "id": "alice", "label": "Alice" },
+        { "id": "bob", "label": "Bob" },
+        { "id": "charlie", "label": "Charlie" }
+      ]
+    },
+    {
+      "id": "pet",
+      "name": "Pet",
+      "options": [
+        { "id": "dog", "label": "Dog" },
+        { "id": "cat", "label": "Cat" },
+        { "id": "fish", "label": "Fish" }
+      ]
+    },
+    {
+      "id": "color",
+      "name": "Color",
+      "options": [
+        { "id": "red", "label": "Red" },
+        { "id": "blue", "label": "Blue" },
+        { "id": "green", "label": "Green" }
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "clue1",
+      "text": "Alice has a red collar for her pet",
+      "type": "direct",
+      "references": ["alice", "red"]
+    },
+    {
+      "id": "clue2",
+      "text": "The person with the fish uses a blue collar",
+      "type": "direct",
+      "references": ["fish", "blue"]
+    },
+    {
+      "id": "clue3",
+      "text": "Charlie doesn't have a dog",
+      "type": "negative",
+      "references": ["charlie", "dog"]
+    }
+  ]
+}

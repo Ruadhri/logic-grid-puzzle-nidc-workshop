@@ -13,33 +13,41 @@ function loadPuzzle(puzzle) {
     throw new Error('Invalid puzzle structure');
   }
 
-  // Generate all possible cell combinations
+  // Generate all possible cell combinations between each pair of categories
   const cells = [];
-  const [cat1, cat2] = puzzle.categories;
-  // For MVP, we'll work with exactly 2 categories
-  for (const opt1 of cat1.options) {
-    for (const opt2 of cat2.options) {
-      cells.push({
-        categoryA: cat1.id,
-        optionA: opt1.id,
-        categoryB: cat2.id,
-        optionB: opt2.id,
-        state: 'unknown'
-      });
+  
+  // For each pair of categories, create cells
+  for (let i = 0; i < puzzle.categories.length; i++) {
+    for (let j = i + 1; j < puzzle.categories.length; j++) {
+      const cat1 = puzzle.categories[i];
+      const cat2 = puzzle.categories[j];
+      
+      // Create cells for this category pair
+      for (const opt1 of cat1.options) {
+        for (const opt2 of cat2.options) {
+          const option1 = typeof opt1 === 'object' ? opt1 : { id: opt1, label: opt1 };
+          const option2 = typeof opt2 === 'object' ? opt2 : { id: opt2, label: opt2 };
+          
+          cells.push({
+            categoryA: cat1.name,
+            optionA: option1.id,
+            optionALabel: option1.label,
+            categoryAName: cat1.name,
+            categoryB: cat2.name,
+            optionB: option2.id,
+            optionBLabel: option2.label,
+            categoryBName: cat2.name,
+            state: 'unknown'
+          });
+        }
+      }
     }
   }
 
-  // Store categories and options in state for validation
   return {
     puzzleId: puzzle.id,
     cells,
-    history: [],
-    inconsistencyFlags: [],
-    categories: puzzle.categories.map(cat => ({ id: cat.id, name: cat.name })),
-    options: [
-      cat1.options.map(opt => opt.id),
-      cat2.options.map(opt => opt.id)
-    ]
+    history: []
   };
 }
 
@@ -135,21 +143,24 @@ function validate(state) {
   });
   const hasConflicts = conflicts.length > 0;
 
-  // Check each category/option combination has at least one possible cell
-  // state.options is now [ [opt1, opt2], [opt1, opt2] ]
-  const [optionsA, optionsB] = state.options;
-  const [catA, catB] = state.categories;
-  const categoryACombos = optionsA.map(optA => ({ categoryA: catA.id, optionA: optA }));
-  const categoryBCombos = optionsB.map(optB => ({ categoryB: catB.id, optionB: optB }));
-  const allCombos = [...categoryACombos, ...categoryBCombos];
+  // Get categories and their options from cells
+  const categories = Array.from(new Set(state.cells.map(cell => cell.categoryA)));
+  const getOptionsForCategory = (category) => 
+    Array.from(new Set(state.cells
+      .filter(cell => cell.categoryA === category || cell.categoryB === category)
+      .map(cell => cell.categoryA === category ? cell.optionA : cell.optionB)
+    ));
 
-  const hasRequiredValues = allCombos.every(combo => {
-    const relevantCells = state.cells.filter(cell =>
-      ('categoryA' in combo ?
-        cell.categoryA === combo.categoryA && cell.optionA === combo.optionA :
-        cell.categoryB === combo.categoryB && cell.optionB === combo.optionB)
-    );
-    return relevantCells.some(cell => cell.state !== 'eliminated');
+  // Check if each category-option combination has at least one possible cell
+  const hasRequiredValues = categories.every(category => {
+    const options = getOptionsForCategory(category);
+    return options.every(option => {
+      return state.cells.some(cell => 
+        ((cell.categoryA === category && cell.optionA === option) ||
+         (cell.categoryB === category && cell.optionB === option)) &&
+        cell.state !== 'eliminated'
+      );
+    });
   });
 
   return {

@@ -1,0 +1,74 @@
+{
+  "id": "charitable-donations",
+  "title": "Charitable Donations",
+  "author": "Logic Grid Workshop",
+  "createdAt": "2025-10-21",
+  "categories": [
+    {
+      "name": "Donor",
+      "options": [
+        "Baron Coin",
+        "Duke of Welf",
+        "Franc Rich",
+        "Lady Quid",
+        "Sir Taindoh"
+      ]
+    },
+    {
+      "name": "Building",
+      "options": [
+        "Gallery",
+        "Library",
+        "Museum",
+        "Rail station",
+        "University"
+      ]
+    },
+    {
+      "name": "History",
+      "options": [
+        "1850s",
+        "1860s",
+        "1880s",
+        "1900s",
+        "1910s"
+      ]
+    },
+    {
+      "name": "Donation",
+      "options": [
+        "£10,000",
+        "£20,000",
+        "£30,000",
+        "£40,000",
+        "£50,000"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "type": "fact",
+      "description": "The Duke of Welf gave a donation of £40,000, but it was someone else that gave to the museum"
+    },
+    {
+      "type": "fact",
+      "description": "Franc Rich contributed precisely £20,000 more than another donor gave to the building created in the 1910s"
+    },
+    {
+      "type": "fact",
+      "description": "Baron Coin gave to a university refurbishment"
+    },
+    {
+      "type": "fact",
+      "description": "Sir Taindoh gave to the building built back in the 1900s, by exactly £20,000 more than someone else gave to one of the first railway stations in the country"
+    },
+    {
+      "type": "fact",
+      "description": "One wealthy local resident gave the large sum of £30,000 to improve a building that was erected after the 1870s"
+    },
+    {
+      "type": "fact",
+      "description": "The restoration of the gallery, which was not built in the 1850s, was helped by a £20,000 donation"
+    }
+  ]
+}
