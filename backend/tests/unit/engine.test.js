@@ -35,21 +35,12 @@ describe('Logic Grid Puzzle Engine', () => {
       expect(state).toEqual({
         puzzleId: 'test-puzzle',
         cells: [
-          { categoryA: 'person', optionA: 'alice', categoryB: 'drink', optionB: 'coffee', state: 'unknown' },
-          { categoryA: 'person', optionA: 'alice', categoryB: 'drink', optionB: 'tea', state: 'unknown' },
-          { categoryA: 'person', optionA: 'bob', categoryB: 'drink', optionB: 'coffee', state: 'unknown' },
-          { categoryA: 'person', optionA: 'bob', categoryB: 'drink', optionB: 'tea', state: 'unknown' }
+          { categoryA: 'Person', categoryAName: 'Person', optionA: 'alice', optionALabel: 'Alice', categoryB: 'Drink', categoryBName: 'Drink', optionB: 'coffee', optionBLabel: 'Coffee', state: 'unknown' },
+          { categoryA: 'Person', categoryAName: 'Person', optionA: 'alice', optionALabel: 'Alice', categoryB: 'Drink', categoryBName: 'Drink', optionB: 'tea', optionBLabel: 'Tea', state: 'unknown' },
+          { categoryA: 'Person', categoryAName: 'Person', optionA: 'bob', optionALabel: 'Bob', categoryB: 'Drink', categoryBName: 'Drink', optionB: 'coffee', optionBLabel: 'Coffee', state: 'unknown' },
+          { categoryA: 'Person', categoryAName: 'Person', optionA: 'bob', optionALabel: 'Bob', categoryB: 'Drink', categoryBName: 'Drink', optionB: 'tea', optionBLabel: 'Tea', state: 'unknown' }
         ],
-        history: [],
-        inconsistencyFlags: [],
-        categories: [
-          { id: 'person', name: 'Person' },
-          { id: 'drink', name: 'Drink' }
-        ],
-        options: [
-          ['alice', 'bob'],
-          ['coffee', 'tea']
-        ]
+        history: []
       });
     });
 
@@ -63,9 +54,9 @@ describe('Logic Grid Puzzle Engine', () => {
     it('should update cell state and trigger propagation', () => {
       const state = loadPuzzle(samplePuzzle);
       const marking = {
-        categoryA: 'person',
+        categoryA: 'Person',
         optionA: 'alice',
-        categoryB: 'drink',
+        categoryB: 'Drink',
         optionB: 'coffee',
         state: 'confirmed'
       };
@@ -95,14 +86,14 @@ describe('Logic Grid Puzzle Engine', () => {
       const state = loadPuzzle(samplePuzzle);
       // First confirm Alice drinks Coffee
       const marking1 = {
-        categoryA: 'person', optionA: 'alice',
-        categoryB: 'drink', optionB: 'coffee',
+        categoryA: 'Person', optionA: 'alice',
+        categoryB: 'Drink', optionB: 'coffee',
         state: 'confirmed'
       };
       // Then incorrectly try to confirm Bob drinks Coffee (column conflict)
       const marking2 = {
-        categoryA: 'person', optionA: 'bob',
-        categoryB: 'drink', optionB: 'coffee',
+        categoryA: 'Person', optionA: 'bob',
+        categoryB: 'Drink', optionB: 'coffee',
         state: 'confirmed'
       };
 
@@ -119,8 +110,8 @@ describe('Logic Grid Puzzle Engine', () => {
     it('should revert the last marking and its propagations', () => {
       const state = loadPuzzle(samplePuzzle);
       const marking = {
-        categoryA: 'person', optionA: 'alice',
-        categoryB: 'drink', optionB: 'coffee',
+        categoryA: 'Person', optionA: 'alice',
+        categoryB: 'Drink', optionB: 'coffee',
         state: 'confirmed'
       };
 

@@ -37,7 +37,7 @@ function loadPuzzle(puzzle) {
             optionB: option2.id,
             optionBLabel: option2.label,
             categoryBName: cat2.name,
-            state: 'unknown'
+            state: 'unknown' // Ensure this is explicitly set for every cell
           });
         }
       }
@@ -58,16 +58,14 @@ function loadPuzzle(puzzle) {
  * @returns {Object} New state after marking and propagation
  */
 function applyMarking(state, marking) {
-  // Store previous state for undo
-  const previousState = {
-    cells: state.cells.map(cell => ({ ...cell })),
-    history: [...state.history]
-  };
+  // Store previous cells state for undo
+  const previousCells = state.cells.map(cell => ({ ...cell }));
 
   // Create new state
   const newState = {
-    ...state,
-    cells: state.cells.map(cell => ({ ...cell }))
+    puzzleId: state.puzzleId,
+    cells: state.cells.map(cell => ({ ...cell })),
+    history: [...state.history]
   };
 
   // Apply direct marking
@@ -84,7 +82,7 @@ function applyMarking(state, marking) {
 
   // Propagate constraints and store the action
   const propagatedState = propagate(newState);
-  propagatedState.history = [...state.history, { previousState, marking }];
+  propagatedState.history = [...state.history, { previousCells, marking }];
   
   return propagatedState;
 }
@@ -180,11 +178,14 @@ function undo(state) {
     return state;
   }
 
+  // Restore to previous state entirely
   const lastAction = state.history[state.history.length - 1];
+  
+  // Get previous state but with truncated history  
   return {
-    ...state,
-    cells: lastAction.previousState.cells.map(cell => ({ ...cell })),
-    history: lastAction.previousState.history
+    puzzleId: state.puzzleId,
+    cells: lastAction.previousCells.map(cell => ({ ...cell })),
+    history: state.history.slice(0, -1)
   };
 }
 

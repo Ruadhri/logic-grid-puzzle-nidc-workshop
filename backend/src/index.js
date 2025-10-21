@@ -62,6 +62,11 @@ app.use(express.json());
 // Routes
 setupPuzzleRoutes(app);
 
+// Expose resetPuzzleState for testing
+app.locals.resetPuzzleState = () => {
+  puzzleController.resetState();
+};
+
 // Error handling
 app.use((err, req, res, next) => {
   console.error(err.stack);

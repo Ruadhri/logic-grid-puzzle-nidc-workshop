@@ -70,6 +70,9 @@ describe('Puzzle API', () => {
 
   describe('Puzzle State Management', () => {
     beforeEach(async () => {
+      // Reset all state
+      app.locals.resetPuzzleState();
+      
       // Create puzzle
       await request(app)
         .post('/api/puzzles')
@@ -94,9 +97,9 @@ describe('Puzzle API', () => {
           .post(`/api/puzzles/${samplePuzzle.id}/state`);
 
         const marking = {
-          categoryA: 'person',
+          categoryA: 'Person',
           optionA: 'alice',
-          categoryB: 'drink',
+          categoryB: 'Drink',
           optionB: 'coffee',
           state: 'confirmed'
         };
@@ -120,25 +123,32 @@ describe('Puzzle API', () => {
     describe('POST /api/puzzles/:id/state/undo', () => {
       it('should undo last marking', async () => {
         // Create state
-        await request(app)
+        const createRes = await request(app)
           .post(`/api/puzzles/${samplePuzzle.id}/state`);
+        console.log('Initial state:', createRes.body.cells.map(c => c.state));
 
         // Apply marking
         const marking = {
-          categoryA: 'person',
+          categoryA: 'Person',
           optionA: 'alice',
-          categoryB: 'drink',
+          categoryB: 'Drink',
           optionB: 'coffee',
           state: 'confirmed'
         };
-        await request(app)
+        const markRes = await request(app)
           .post(`/api/puzzles/${samplePuzzle.id}/state/marking`)
           .send(marking);
+        
+        console.log('After marking:', markRes.body.cells.map(c => c.state));
+        console.log('History length:', markRes.body.history.length);
 
         // Undo
         const res = await request(app)
           .post(`/api/puzzles/${samplePuzzle.id}/state/undo`);
         
+        console.log('After undo:', res.body.cells.map(c => c.state));
+        console.log('History length after undo:', res.body.history.length);
+
         expect(res.status).toBe(200);
         expect(res.body.cells.every(c => c.state === 'unknown')).toBe(true);
       });
